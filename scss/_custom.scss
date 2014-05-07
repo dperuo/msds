@@ -1,0 +1,43 @@
+
+.nav-top {
+    content: '';
+    height: 8rem;
+    background: rgba(0,82,204,0.9);
+    box-shadow: 0px 0px 1px black;
+    z-index: 1000;
+}
+
+.nav-sub {
+    content: '';
+    height: 4.875rem;
+    background: #b2b2b2;
+}
+
+.footer-top {
+    content: '';
+    height: 6.25rem;
+    background-color: #9ee892;
+    background: url(../img/bg-footer1.jpg) repeat-x;
+}
+
+.footer-sub {
+    content: '';
+    height: 17.625rem;
+    background-color: #0c4fb5;
+}
+
+.white-text {
+    color: white;
+}
+
+h2, .h2-text {
+    font-size: 1.625rem;
+}
+
+.pull-down-text {
+    top: 2.3rem;
+}
+
+.pull-down-button {
+    padding-top: 1.7rem;
+}

@@ -1,20 +1,12 @@
-@import "layout";
-@import "skin";
-@import "typography";
 @import "settings";
 @import "foundation";
+@import "custom";
 
 // Or selectively include components
-
-/*
-@import
-    "foundation/components/block-grid",
-    "foundation/components/grid",
-    "foundation/components/inline-lists";
-*/
+// @import
 //   "foundation/components/accordion",
 //   "foundation/components/alert-boxes",
-//   -- "foundation/components/block-grid",
+//   "foundation/components/block-grid",
 //   "foundation/components/breadcrumbs",
 //   "foundation/components/button-groups",
 //   "foundation/components/buttons",
@@ -23,13 +15,13 @@
 //   "foundation/components/dropdown-buttons",
 //   "foundation/components/flex-video",
 //   "foundation/components/forms",
-//   -- "foundation/components/grid",
-//   -- "foundation/components/inline-lists",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
 //   "foundation/components/joyride",
 //   "foundation/components/keystrokes",
 //   "foundation/components/labels",
 //   "foundation/components/magellan",
-//   -- "foundation/components/orbit",
+//   "foundation/components/orbit",
 //   "foundation/components/pagination",
 //   "foundation/components/panels",
 //   "foundation/components/pricing-tables",
@@ -47,4 +39,3 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-
