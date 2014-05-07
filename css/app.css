@@ -7805,9 +7805,41 @@ th.hide-for-touch {
   content: '';
   height: 4.875rem;
   background: #b2b2b2;
+  text-align: center;
+  padding-top: 1.7rem;
+  border-bottom: 1px solid #c8c3bc;
 }
 
-/* line 16, ../scss/_custom.scss */
+/* line 19, ../scss/_custom.scss */
+.nav-sub-link {
+  color: #525252;
+}
+
+/* line 23, ../scss/_custom.scss */
+.nav-sub-link-active {
+  color: white;
+}
+/* line 25, ../scss/_custom.scss */
+.nav-sub-link-active:before {
+  content: '';
+  height: 0;
+  width: 0;
+  position: relative;
+  bottom: -0.75rem;
+  left: 2.9rem;
+  border-bottom: 1rem solid white;
+  border-top: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+}
+
+/* line 39, ../scss/_custom.scss */
+.main-section {
+  content: '';
+  height: 5rem;
+}
+
+/* line 44, ../scss/_custom.scss */
 .footer-top {
   content: '';
   height: 6.25rem;
@@ -7815,29 +7847,29 @@ th.hide-for-touch {
   background: url(../img/bg-footer1.jpg) repeat-x;
 }
 
-/* line 23, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 .footer-sub {
   content: '';
   height: 17.625rem;
   background-color: #0c4fb5;
 }
 
-/* line 29, ../scss/_custom.scss */
+/* line 57, ../scss/_custom.scss */
+.h2-text, h2 {
+  font-size: 1.625rem;
+}
+
+/* line 62, ../scss/_custom.scss */
 .white-text {
   color: white;
 }
 
-/* line 33, ../scss/_custom.scss */
-h2, .h2-text {
-  font-size: 1.625rem;
-}
-
-/* line 37, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 .pull-down-text {
   top: 2.3rem;
 }
 
-/* line 41, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .pull-down-button {
   padding-top: 1.7rem;
 }
