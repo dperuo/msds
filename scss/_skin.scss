@@ -32,7 +32,7 @@ $silver-dark:      #c8c3bc;
 }
 
 .nav2-link-active {
-    color: white;
+    color: $white;
     &:after {
         content: '';
         position: relative;
@@ -46,5 +46,17 @@ $silver-dark:      #c8c3bc;
         border-top-color: transparent;
         border-left-color: transparent;
         border-right-color: transparent;
+    }
+}
+
+.nav1 {
+    background-color: $blue-sky;
+    @include transparency(0.9);
+}
+
+.nav1-link {
+    color: $white;
+    &:hover {
+       color: scale-color($white, $lightness: -14%) 
     }
 }

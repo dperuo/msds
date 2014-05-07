@@ -1,10 +1,5 @@
 // --- LAYOUT --- ///
 
-.container {
-    // max-width: 1200px;
-    // margin: 0 auto;
-    // padding: 0 7.5rem;
-}
 
 .nav2 {
     text-align: center;
@@ -16,4 +11,18 @@
     padding-top: 1.3em !important;
 }
 
+.nav1-first-row {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
 
+.logo {
+    padding-bottom: 0.6em;
+    position: relative;
+    top: -0.8em;
+    left: 1em;
+}
+
+.right-margin-1em {
+    margin-right: 1em !important;
+}
