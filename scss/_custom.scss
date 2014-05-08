@@ -1,10 +1,25 @@
+.orbit-container .orbit-bullets {
+    margin: -3.5rem -55.9rem 30px auto;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    float: none;
+    text-align: center;
+    display: block;
+}
+
+.orbit-container .orbit-timer {
+    z-index: -1;
+}
 
 .nav-top {
     content: '';
+    position: relative;
     height: 8rem;
-    background: rgba(0,82,204,0.9);
+    background: rgba(0, 82, 204, 0.9);
     box-shadow: 0px 0px 1px black;
-    z-index: 1000;
+    margin-top: -8rem;
+    top: -19.1rem;
 }
 
 .nav-sub {

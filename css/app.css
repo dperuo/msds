@@ -7791,16 +7791,34 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 2, ../scss/_custom.scss */
+/* line 1, ../scss/_custom.scss */
+.orbit-container .orbit-bullets {
+  margin: -3.5rem -55.9rem 30px auto;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+  float: none;
+  text-align: center;
+  display: block;
+}
+
+/* line 11, ../scss/_custom.scss */
+.orbit-container .orbit-timer {
+  z-index: -1;
+}
+
+/* line 15, ../scss/_custom.scss */
 .nav-top {
   content: '';
+  position: relative;
   height: 8rem;
   background: rgba(0, 82, 204, 0.9);
   box-shadow: 0px 0px 1px black;
-  z-index: 1000;
+  margin-top: -8rem;
+  top: -19.1rem;
 }
 
-/* line 10, ../scss/_custom.scss */
+/* line 25, ../scss/_custom.scss */
 .nav-sub {
   content: '';
   height: 4.875rem;
@@ -7810,16 +7828,16 @@ th.hide-for-touch {
   border-bottom: 1px solid #c8c3bc;
 }
 
-/* line 19, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
 .nav-sub-link {
   color: #525252;
 }
 
-/* line 23, ../scss/_custom.scss */
+/* line 38, ../scss/_custom.scss */
 .nav-sub-link-active {
   color: white;
 }
-/* line 25, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 .nav-sub-link-active:before {
   content: '';
   height: 0;
@@ -7833,13 +7851,13 @@ th.hide-for-touch {
   border-right: 1rem solid transparent;
 }
 
-/* line 39, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 .main-section {
   content: '';
   height: 5rem;
 }
 
-/* line 44, ../scss/_custom.scss */
+/* line 59, ../scss/_custom.scss */
 .footer-top {
   content: '';
   height: 6.25rem;
@@ -7847,29 +7865,29 @@ th.hide-for-touch {
   background: url(../img/bg-footer1.jpg) repeat-x;
 }
 
-/* line 51, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .footer-sub {
   content: '';
   height: 17.625rem;
   background-color: #0c4fb5;
 }
 
-/* line 57, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .h2-text, h2 {
   font-size: 1.625rem;
 }
 
-/* line 62, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 .white-text {
   color: white;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 .pull-down-text {
   top: 2.3rem;
 }
 
-/* line 66, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 .pull-down-button {
   padding-top: 1.7rem;
 }
