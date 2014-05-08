@@ -1,38 +1,40 @@
-.orbit-container .orbit-bullets {
-    margin: -3rem 3rem 0 0;
-    overflow: hidden;
-    position: relative;
-    top: 10px;
-    float: right;
-    text-align: center;
-    display: block;
-}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
-.orbit-container .orbit-timer {
-    z-index: -1;
+.orbit-container {
+    .orbit-bullets {
+        margin: -3.5rem 7rem 0 auto;
+        overflow: hidden;
+        position: relative;
+        top: 1rem;
+        float: right;
+        text-align: center;
+        display: block;
+    }
+    .orbit-timer {
+        z-index: -1;
+    }
 }
 
 .nav-top {
-    content: '';
     position: relative;
-    height: 8rem;
-    background: rgba(0, 82, 204, 0.9);
-    box-shadow: 0px 0px 1px black;
-    margin-top: -8.1rem;
-    top: -19.2rem;
+    height: 8.0625rem;
+    margin-top: -8.0625rem;
+    top: -24.6rem;
+    background-color: rgba(0, 82, 204, 0.9);
+    box-shadow: 0px 0px 0.0625rem black;
 }
 
 .nav-sub {
-    content: '';
     height: 4.875rem;
-    background: #b2b2b2;
+    background-color: #b2b2b2;
     text-align: center;
-    padding-top: 1.7rem;
-    border-bottom: 1px solid #c8c3bc;
+    vertical-align: middle;
+    padding-top: 1.5rem;
 }
 
 .nav-sub-link {
     color: #525252;
+    font-size: 1.25rem;
 }
 
 .nav-sub-link-active {
@@ -42,8 +44,8 @@
         height: 0;
         width: 0;
         position: relative;
-        bottom: -0.75rem;
-        left: 2.9rem;      
+        bottom: -0.6rem;
+        left: 3.4rem;     
         border-bottom: 1rem solid white;
         border-top: 1rem solid transparent;
         border-left: 1rem solid transparent;
@@ -54,40 +56,12 @@
     }
 }
 
-.main-section {
-    content: '';
-    // height: 30.375rem;
+.main-content {
+    // height: 20rem;
+    padding-top: 9rem;
 }
 
-.footer-top {
-    content: '';
-    height: 6.25rem;
-    background-color: #9ee892;
-    background: url(../img/bg-footer1.jpg) repeat-x;
-}
-
-.footer-sub {
-    content: '';
-    height: 17.625rem;
-    background-color: #0c4fb5;
-}
-
-.site-map {
-        padding-top: 2rem;
-        dd {
-            margin-bottom: 0;
-        }
-}
-
-.underline-dot {
-    border-bottom: 1px dotted white;
-}
-
-.h2-text, h2 { font-size: 1.625rem; }
-
-.small-font { font-size: 0.75rem; }
-
-.section-heading {
+.content-heading {
     display: block;
     width: 30rem;
     padding-bottom: 0.5rem;
@@ -96,44 +70,19 @@
     line-height: 2.1rem;
 }
 
-.section-font {
+.content-text {
     font-size: 1.1875rem;
-    font-weight: 100;
-    line-height: 1rem;
+    line-height: 1.5rem;
 }
 
-.section-img {
-    // margin-top: -2rem;
-    padding: 3.625rem 0;
+.content-img {
+    padding-top: 3.625rem;
 }
-
-.push-to-bottom {
-    content: '';
-}
-
-
 
 // --- COLORS --- //
 
-.blue { color: #0c4fb5; }
-
-.mid-grey { color: #808084; }
-
 .orange { color: #f68933; }
 
-.white { color: white; }
-
-
-
-
-// --- HELPER CLASSES --- //
-
-.padding-top-17 { padding-top: 1.7rem; }
-
-.padding-top-24 { padding-top: 2.4rem; }
-
-.padding-top-60 { padding-top: 6rem; }
-
-.padding-top-80 { padding-top: 8rem; }
+.mid-grey { color: #808084; }
 
 
