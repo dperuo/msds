@@ -7850,14 +7850,17 @@ th.hide-for-touch {
   border-left: 1rem solid transparent;
   border-right: 1rem solid transparent;
 }
-
-/* line 54, ../scss/_custom.scss */
-.main-section {
-  content: '';
-  height: 5rem;
+/* line 52, ../scss/_custom.scss */
+.nav-sub-link-active:hover {
+  color: white;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 57, ../scss/_custom.scss */
+.main-section {
+  content: '';
+}
+
+/* line 62, ../scss/_custom.scss */
 .footer-top {
   content: '';
   height: 6.25rem;
@@ -7865,29 +7868,76 @@ th.hide-for-touch {
   background: url(../img/bg-footer1.jpg) repeat-x;
 }
 
-/* line 66, ../scss/_custom.scss */
+/* line 69, ../scss/_custom.scss */
 .footer-sub {
   content: '';
   height: 17.625rem;
   background-color: #0c4fb5;
 }
 
-/* line 72, ../scss/_custom.scss */
+/* line 75, ../scss/_custom.scss */
 .h2-text, h2 {
   font-size: 1.625rem;
 }
 
 /* line 77, ../scss/_custom.scss */
-.white-text {
+.section-heading {
+  display: block;
+  width: 30rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+}
+
+/* line 86, ../scss/_custom.scss */
+.section-font {
+  font-size: 1.1875rem;
+  font-weight: 100;
+  line-height: 1rem;
+}
+
+/* line 92, ../scss/_custom.scss */
+.section-img {
+  padding: 3.625rem 0;
+}
+
+/* line 103, ../scss/_custom.scss */
+.blue {
+  color: #0c4fb5;
+}
+
+/* line 105, ../scss/_custom.scss */
+.mid-grey {
+  color: #808084;
+}
+
+/* line 107, ../scss/_custom.scss */
+.orange {
+  color: #f68933;
+}
+
+/* line 109, ../scss/_custom.scss */
+.white {
   color: white;
 }
 
-/* line 79, ../scss/_custom.scss */
-.pull-down-text {
-  top: 2.3rem;
+/* line 116, ../scss/_custom.scss */
+.padding-top-17 {
+  padding-top: 1.7rem;
 }
 
-/* line 81, ../scss/_custom.scss */
-.pull-down-button {
-  padding-top: 1.7rem;
+/* line 118, ../scss/_custom.scss */
+.padding-top-24 {
+  padding-top: 2.4rem;
+}
+
+/* line 120, ../scss/_custom.scss */
+.padding-top-60 {
+  padding-top: 6rem;
+}
+
+/* line 122, ../scss/_custom.scss */
+.padding-top-80 {
+  padding-top: 8rem;
 }

@@ -49,11 +49,14 @@
         border-left: 1rem solid transparent;
         border-right: 1rem solid transparent;
     }
+    &:hover {
+        color: white;
+    }
 }
 
 .main-section {
     content: '';
-    height: 5rem;
+    // height: 30.375rem;
 }
 
 .footer-top {
@@ -71,12 +74,51 @@
 
 .h2-text, h2 { font-size: 1.625rem; }
 
+.section-heading {
+    display: block;
+    width: 30rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+}
+
+.section-font {
+    font-size: 1.1875rem;
+    font-weight: 100;
+    line-height: 1rem;
+}
+
+.section-img {
+    // margin-top: -2rem;
+    padding: 3.625rem 0;
+}
+
+
+
+
+
+// --- COLORS --- //
+
+.blue { color: #0c4fb5; }
+
+.mid-grey { color: #808084; }
+
+.orange { color: #f68933; }
+
+.white { color: white; }
+
+
+
 
 // --- HELPER CLASSES --- //
 
-.white-text { color: white; }
+.padding-top-17 { padding-top: 1.7rem; }
 
-.pull-down-text { top: 2.3rem; }
+.padding-top-24 { padding-top: 2.4rem; }
 
-.pull-down-button { padding-top: 1.7rem; }
+.padding-top-60 { padding-top: 6rem; }
+
+.padding-top-80 { padding-top: 8rem; }
+
 
