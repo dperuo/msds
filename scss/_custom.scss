@@ -34,7 +34,6 @@
 
 .nav-sub-link {
     color: #525252;
-    font-size: 1.25rem;
 }
 
 .nav-sub-link-active {
@@ -59,14 +58,12 @@
 .content-heading {
     display: block;
     width: 30rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.875rem;
+    padding-bottom: 0.5rem; 
     font-weight: 700;
     line-height: 2.1rem;
 }
 
 .content-text {
-    font-size: 1.1875rem;
     line-height: 1.5rem;
 }
 
@@ -86,19 +83,16 @@
     content: '';
     height: 17.625rem;
     background-color: #0c4fb5;
-    font-size: 0.75rem;
 }
 
 .tagline {
     display: inline-block;
-    padding-top: 2.2rem;
-    font-size: 1.625rem;
+    padding-top: 2.2rem; 
     font-weight: 400;
 }
 
 .site-map {
         padding-top: 2rem;
-        font-size: 0.75rem;
         margin-right: 1rem;
         dd {
             margin-bottom: 0;
@@ -109,18 +103,38 @@
     border-bottom: 1px dotted white;
 }
 
+
+
+
+
 // --- COLORS --- //
-
-.orange { color: #f68933; }
-
-.mid-grey { color: #808084; }
 
 .blue { color: #0c4fb5; }
 
+.green-bg-dark { background-color: #199540; }
+
+.green-bg-light { background-color: #1faf4d; }
+
+.mid-grey { color: #808084; }
+
+.orange { color: #f68933; }
+
 .white { color: #fff; }
+
+
+
+
 
 // --- HELPER CLASSES --- //
 
-.padding-top-9 { padding-top: 9rem; }
+.padding-top-16 { padding-top: 1.6rem; }
+.padding-top-7  { padding-top: 7rem;   }
+.padding-top-9  { padding-top: 9rem;   }
 
-.padding-top-7 { padding-top: 7rem; }
+.font-size-12 { font-size: 0.75rem;    }
+.font-size-19 { font-size: 1.1875rem;  }
+.font-size-20 { font-size: 1.25rem;    }
+.font-size-25 { font-size: 1.5625rem;  }
+.font-size-26 { font-size: 1.625rem;   }
+.font-size-30 { font-size: 1.875rem;   }
+
