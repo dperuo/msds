@@ -1,109 +1,118 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
+.carousel {
+  position: relative;
+  margin-top: -8.0625rem;
+  z-index: -1;
+}
+
+
 .orbit-container {
-    .orbit-bullets {
-        margin: -3.5rem 8.2rem 0 auto;
-        overflow: hidden;
-        position: relative;
-        top: 1rem;
-        float: right;
-        text-align: center;
-        display: block;
-    }
-    .orbit-timer {
-        z-index: -1;
-    }
+  .orbit-bullets {
+    margin: -3.5rem 8.2rem 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 1rem;
+    float: right;
+    text-align: center;
+    display: block;
+  }
+  .orbit-timer {
+      z-index: -1;
+  }
 }
 
 .nav-top {
-    position: relative;
-    height: 8.0625rem;
-    margin-top: -8.0625rem;
-    top: -24.6rem;
-    background-color: rgba(0, 82, 204, 0.9);
-    box-shadow: 0px 0px 0.0625rem black;
+  height: 8.0625rem;
+  background-color: rgba(0, 82, 204, 0.9);
+  box-shadow: 0px 0px 0.0625rem black;
+}
+
+.nav-top-link {
+  text-align: center;
 }
 
 .nav-sub {
-    height: 4.875rem;
-    background-color: #b2b2b2;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 1.5rem;
+  height: 4.875rem;
+  background-color: #b2b2b2;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 1.5rem;
 }
 
 .nav-sub-link {
-    color: #525252;
+  color: #525252;
 }
 
 .nav-sub-link-active {
+  color: white;
+  &:before {
+    content: '';
+    height: 0;
+    width: 0;
+    position: relative;
+    bottom: -0.6rem;
+    left: 3.4rem;     
+    border-bottom: 1rem solid white;
+    border-top: 1rem solid transparent;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+  }
+  &:hover {
     color: white;
-    &:before {
-        content: '';
-        height: 0;
-        width: 0;
-        position: relative;
-        bottom: -0.6rem;
-        left: 3.4rem;     
-        border-bottom: 1rem solid white;
-        border-top: 1rem solid transparent;
-        border-left: 1rem solid transparent;
-        border-right: 1rem solid transparent;
-    }
-    &:hover {
-        color: white;
-    }
+  }
 }
 
 .content-heading {
-    display: block;
-    width: 30rem;
-    padding-bottom: 0.5rem; 
-    font-weight: 700;
-    line-height: 2.1rem;
+  display: block;
+  width: 30rem;
+  padding-bottom: 0.5rem; 
+  line-height: 2.1rem;
 }
 
 .content-text {
-    line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .content-img {
-    padding-top: 3.625rem;
+  padding-top: 3.625rem;
 }
 
 .footer-top {
-    content: '';
-    height: 6.25rem;
-    margin-top: 4rem;
-    background-color: #9ee892;
-    background: url(../img/bg-footer1.jpg) repeat-x;
+  content: '';
+  height: 6.25rem;
+  margin-top: 4rem;
+  background-color: #9ee892;
+  background: url(../img/bg-footer1.jpg) repeat-x;
 }
 
 .footer-sub {
-    content: '';
-    height: 17.625rem;
-    background-color: #0c4fb5;
+  content: '';
+  height: 17.625rem;
+  background-color: #0c4fb5;
 }
 
 .tagline {
-    display: inline-block;
-    padding-top: 2.2rem; 
-    font-weight: 400;
+  display: inline-block;
+  padding-top: 2.2rem; 
 }
 
 .site-map {
-        padding-top: 2rem;
-        margin-right: 1rem;
-        dd {
-            margin-bottom: 0;
-        }
+  padding-top: 2rem;
+  margin-right: 1rem;
+  dd {
+    margin-bottom: 0;
+  }
 }
 
 .underline-dot {
-    border-bottom: 1px dotted white;
+  border-bottom: 1px dotted white;
 }
 
-
+.button-padding {
+  display: block;
+  padding: 0.1rem 0.6rem;
+}
 
 
 
@@ -115,11 +124,35 @@
 
 .green-bg-light { background-color: #1faf4d; }
 
+.green-bg-mid { background-color: #7ecf71 }
+
 .mid-grey { color: #808084; }
 
 .orange { color: #f68933; }
 
 .white { color: #fff; }
+
+
+
+
+
+
+// --- TYPOGRAPHY --- //
+
+.font-size-11 { font-size: 0.6875rem; }
+.font-size-12 { font-size: 0.75rem;   }
+.font-size-14 { font-size: 0.875rem;  }
+.font-size-19 { font-size: 1.1875rem; }
+.font-size-20 { font-size: 1.25rem;   }
+.font-size-25 { font-size: 1.5625rem; }
+.font-size-26 { font-size: 1.625rem;  }
+.font-size-30 { font-size: 1.875rem;  }
+
+.font-light      { font-weight: 300; }
+.font-normal     { font-weight: 400; }
+.font-semi-bold  { font-weight: 600; }
+.font-bold       { font-weight: 700; }
+.font-extra-bold { font-weight: 800; }
 
 
 
@@ -131,10 +164,4 @@
 .padding-top-7  { padding-top: 7rem;   }
 .padding-top-9  { padding-top: 9rem;   }
 
-.font-size-12 { font-size: 0.75rem;    }
-.font-size-19 { font-size: 1.1875rem;  }
-.font-size-20 { font-size: 1.25rem;    }
-.font-size-25 { font-size: 1.5625rem;  }
-.font-size-26 { font-size: 1.625rem;   }
-.font-size-30 { font-size: 1.875rem;   }
 

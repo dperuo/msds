@@ -2600,10 +2600,10 @@ button.small, .button.small {
 }
 /* line 199, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.tiny, .button.tiny {
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.6875rem;
-  padding-left: 1.25rem;
+  padding-top: 0.0625rem;
+  padding-right: 0.125rem;
+  padding-bottom: 0.125rem;
+  padding-left: 0.125rem;
   font-size: 0.6875rem;
 }
 /* line 200, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
@@ -7986,7 +7986,14 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 4, ../scss/_custom.scss */
+/* line 3, ../scss/_custom.scss */
+.carousel {
+  position: relative;
+  margin-top: -8.0625rem;
+  z-index: -1;
+}
+
+/* line 11, ../scss/_custom.scss */
 .orbit-container .orbit-bullets {
   margin: -3.5rem 8.2rem 0 auto;
   overflow: hidden;
@@ -7996,22 +8003,24 @@ th.hide-for-touch {
   text-align: center;
   display: block;
 }
-/* line 13, ../scss/_custom.scss */
+/* line 20, ../scss/_custom.scss */
 .orbit-container .orbit-timer {
   z-index: -1;
 }
 
-/* line 18, ../scss/_custom.scss */
+/* line 25, ../scss/_custom.scss */
 .nav-top {
-  position: relative;
   height: 8.0625rem;
-  margin-top: -8.0625rem;
-  top: -24.6rem;
   background-color: rgba(0, 82, 204, 0.9);
   box-shadow: 0px 0px 0.0625rem black;
 }
 
-/* line 27, ../scss/_custom.scss */
+/* line 31, ../scss/_custom.scss */
+.nav-top-link {
+  text-align: center;
+}
+
+/* line 35, ../scss/_custom.scss */
 .nav-sub {
   height: 4.875rem;
   background-color: #b2b2b2;
@@ -8020,16 +8029,16 @@ th.hide-for-touch {
   padding-top: 1.5rem;
 }
 
-/* line 35, ../scss/_custom.scss */
+/* line 43, ../scss/_custom.scss */
 .nav-sub-link {
   color: #525252;
 }
 
-/* line 39, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 .nav-sub-link-active {
   color: white;
 }
-/* line 41, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 .nav-sub-link-active:before {
   content: '';
   height: 0;
@@ -8042,31 +8051,30 @@ th.hide-for-touch {
   border-left: 1rem solid transparent;
   border-right: 1rem solid transparent;
 }
-/* line 53, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 .nav-sub-link-active:hover {
   color: white;
 }
 
-/* line 58, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .content-heading {
   display: block;
   width: 30rem;
   padding-bottom: 0.5rem;
-  font-weight: 700;
   line-height: 2.1rem;
 }
 
-/* line 66, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 .content-text {
   line-height: 1.5rem;
 }
 
-/* line 70, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 .content-img {
   padding-top: 3.625rem;
 }
 
-/* line 74, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 .footer-top {
   content: '';
   height: 6.25rem;
@@ -8075,106 +8083,151 @@ th.hide-for-touch {
   background: url(../img/bg-footer1.jpg) repeat-x;
 }
 
-/* line 82, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
 .footer-sub {
   content: '';
   height: 17.625rem;
   background-color: #0c4fb5;
 }
 
-/* line 88, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .tagline {
   display: inline-block;
   padding-top: 2.2rem;
-  font-weight: 400;
 }
 
-/* line 94, ../scss/_custom.scss */
+/* line 100, ../scss/_custom.scss */
 .site-map {
   padding-top: 2rem;
   margin-right: 1rem;
 }
-/* line 97, ../scss/_custom.scss */
+/* line 103, ../scss/_custom.scss */
 .site-map dd {
   margin-bottom: 0;
 }
 
-/* line 102, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .underline-dot {
   border-bottom: 1px dotted white;
 }
 
 /* line 112, ../scss/_custom.scss */
+.button-padding {
+  display: block;
+  padding: 0.1rem 0.6rem;
+}
+
+/* line 121, ../scss/_custom.scss */
 .blue {
   color: #0c4fb5;
 }
 
-/* line 114, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 .green-bg-dark {
   background-color: #199540;
 }
 
-/* line 116, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .green-bg-light {
   background-color: #1faf4d;
 }
 
-/* line 118, ../scss/_custom.scss */
+/* line 127, ../scss/_custom.scss */
+.green-bg-mid {
+  background-color: #7ecf71;
+}
+
+/* line 129, ../scss/_custom.scss */
 .mid-grey {
   color: #808084;
 }
 
-/* line 120, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 .orange {
   color: #f68933;
 }
 
-/* line 122, ../scss/_custom.scss */
+/* line 133, ../scss/_custom.scss */
 .white {
   color: #fff;
 }
 
-/* line 130, ../scss/_custom.scss */
-.padding-top-16 {
-  padding-top: 1.6rem;
+/* line 142, ../scss/_custom.scss */
+.font-size-11 {
+  font-size: 0.6875rem;
 }
 
-/* line 131, ../scss/_custom.scss */
-.padding-top-7 {
-  padding-top: 7rem;
-}
-
-/* line 132, ../scss/_custom.scss */
-.padding-top-9 {
-  padding-top: 9rem;
-}
-
-/* line 134, ../scss/_custom.scss */
+/* line 143, ../scss/_custom.scss */
 .font-size-12 {
   font-size: 0.75rem;
 }
 
-/* line 135, ../scss/_custom.scss */
+/* line 144, ../scss/_custom.scss */
+.font-size-14 {
+  font-size: 0.875rem;
+}
+
+/* line 145, ../scss/_custom.scss */
 .font-size-19 {
   font-size: 1.1875rem;
 }
 
-/* line 136, ../scss/_custom.scss */
+/* line 146, ../scss/_custom.scss */
 .font-size-20 {
   font-size: 1.25rem;
 }
 
-/* line 137, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .font-size-25 {
   font-size: 1.5625rem;
 }
 
-/* line 138, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 .font-size-26 {
   font-size: 1.625rem;
 }
 
-/* line 139, ../scss/_custom.scss */
+/* line 149, ../scss/_custom.scss */
 .font-size-30 {
   font-size: 1.875rem;
+}
+
+/* line 151, ../scss/_custom.scss */
+.font-light {
+  font-weight: 300;
+}
+
+/* line 152, ../scss/_custom.scss */
+.font-normal {
+  font-weight: 400;
+}
+
+/* line 153, ../scss/_custom.scss */
+.font-semi-bold {
+  font-weight: 600;
+}
+
+/* line 154, ../scss/_custom.scss */
+.font-bold {
+  font-weight: 700;
+}
+
+/* line 155, ../scss/_custom.scss */
+.font-extra-bold {
+  font-weight: 800;
+}
+
+/* line 163, ../scss/_custom.scss */
+.padding-top-16 {
+  padding-top: 1.6rem;
+}
+
+/* line 164, ../scss/_custom.scss */
+.padding-top-7 {
+  padding-top: 7rem;
+}
+
+/* line 165, ../scss/_custom.scss */
+.padding-top-9 {
+  padding-top: 9rem;
 }
