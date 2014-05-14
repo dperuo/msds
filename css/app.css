@@ -1810,7 +1810,7 @@ select {
 .accordion dd > a {
   background: #efefef;
   color: #222222;
-  padding: 1rem;
+  padding: 0.125rem;
   display: block;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
@@ -8141,157 +8141,180 @@ th.hide-for-touch {
   padding: 0.27em 0.6em;
 }
 
-/* line 149, ../scss/_custom.scss */
+/* line 146, ../scss/_custom.scss */
+.accordion a {
+  padding-left: 1rem !important;
+}
+/* line 148, ../scss/_custom.scss */
+.accordion a:not(.white):after {
+  content: url("../img/arrow-down.png");
+}
+/* line 153, ../scss/_custom.scss */
+.accordion a[class*='white']:after {
+  content: url("../img/arrow-up.png");
+}
+/* line 157, ../scss/_custom.scss */
+.accordion .content {
+  padding-left: 1rem !important;
+  font-size: 0.875rem;
+}
+
+/* line 165, ../scss/_custom.scss */
 .blue {
   color: #0c4fb5;
 }
 
-/* line 151, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 .green-bg-dark {
-  background-color: #199540;
+  background-color: #199540 !important;
 }
 
-/* line 153, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 .green-bg-light {
-  background-color: #1faf4d;
-}
-
-/* line 155, ../scss/_custom.scss */
-.green-bg-mid {
-  background-color: #7ecf71;
-}
-
-/* line 157, ../scss/_custom.scss */
-.green-text-mid {
-  color: #7ecf71;
-}
-
-/* line 159, ../scss/_custom.scss */
-.mid-grey {
-  color: #808084;
-}
-
-/* line 161, ../scss/_custom.scss */
-.orange {
-  color: #f68933;
-}
-
-/* line 163, ../scss/_custom.scss */
-.white {
-  color: #fff;
+  background-color: #1faf4d !important;
 }
 
 /* line 171, ../scss/_custom.scss */
+.green-bg-mid {
+  background-color: #7ecf71 !important;
+}
+
+/* line 173, ../scss/_custom.scss */
+.green-text-mid {
+  color: #7ecf71 !important;
+}
+
+/* line 175, ../scss/_custom.scss */
+.mid-grey {
+  color: #808084 !important;
+}
+
+/* line 177, ../scss/_custom.scss */
+.orange {
+  color: #f68933 !important;
+}
+
+/* line 179, ../scss/_custom.scss */
+.white {
+  color: #fff !important;
+}
+
+/* line 185, ../scss/_custom.scss */
 .font-size-11 {
   font-size: 0.6875rem;
 }
 
-/* line 172, ../scss/_custom.scss */
+/* line 186, ../scss/_custom.scss */
 .font-size-12 {
   font-size: 0.75rem;
 }
 
-/* line 173, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 .font-size-14 {
   font-size: 0.875rem;
 }
 
-/* line 174, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 .font-size-19 {
   font-size: 1.1875rem;
 }
 
-/* line 175, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 .font-size-20 {
   font-size: 1.25rem;
 }
 
-/* line 176, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .font-size-21 {
   font-size: 1.3125rem;
 }
 
-/* line 177, ../scss/_custom.scss */
+/* line 191, ../scss/_custom.scss */
 .font-size-25 {
   font-size: 1.5625rem;
 }
 
-/* line 178, ../scss/_custom.scss */
+/* line 192, ../scss/_custom.scss */
 .font-size-26 {
   font-size: 1.625rem;
 }
 
-/* line 179, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 .font-size-30 {
   font-size: 1.875rem;
 }
 
-/* line 180, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 .font-size-36 {
   font-size: 2.25rem;
 }
 
-/* line 181, ../scss/_custom.scss */
+/* line 195, ../scss/_custom.scss */
 .font-size-48 {
   font-size: 3rem;
 }
 
-/* line 183, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 .font-light {
   font-weight: 300;
 }
 
-/* line 184, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 .font-normal {
   font-weight: 400;
 }
 
-/* line 185, ../scss/_custom.scss */
+/* line 199, ../scss/_custom.scss */
 .font-semi-bold {
   font-weight: 600;
 }
 
-/* line 186, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 .font-bold {
   font-weight: 700;
 }
 
-/* line 187, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 .font-extra-bold {
   font-weight: 800;
 }
 
-/* line 189, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 .font-italic {
   font-style: italic;
 }
 
-/* line 191, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 .font-shadow {
   text-shadow: 0.1rem 0.1rem 0.3rem black;
 }
 
-/* line 197, ../scss/_custom.scss */
+/* line 211, ../scss/_custom.scss */
 .padding-top-16 {
   padding-top: 1.6rem;
 }
 
-/* line 198, ../scss/_custom.scss */
+/* line 212, ../scss/_custom.scss */
 .padding-top-25 {
   padding-top: 2.5rem;
 }
 
-/* line 199, ../scss/_custom.scss */
+/* line 213, ../scss/_custom.scss */
 .padding-top-7 {
   padding-top: 7rem;
 }
 
-/* line 200, ../scss/_custom.scss */
+/* line 214, ../scss/_custom.scss */
 .padding-top-9 {
   padding-top: 9rem;
 }
 
-/* line 202, ../scss/_custom.scss */
+/* line 216, ../scss/_custom.scss */
 .width-120 {
   width: 120%;
+}
+
+/* line 218, ../scss/_custom.scss */
+.border-radius-1 {
+  border-radius: 1rem;
 }
