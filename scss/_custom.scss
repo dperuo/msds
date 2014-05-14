@@ -1,4 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic);
+
+.row .row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .carousel {
   position: relative;
@@ -6,6 +12,13 @@
   z-index: -1;
 }
 
+//.carousel-text {
+//  position: relative;
+//  height: 0;
+//  top: 5rem;
+//  z-index: 2;
+//  overflow: visible;
+//}
 
 .orbit-container {
   .orbit-bullets {
@@ -39,6 +52,7 @@
   vertical-align: middle;
   padding-top: 1.5rem;
   position: relative;
+  // margin-top: 8.5rem;
 }
 
 .nav-sub-link {
@@ -96,6 +110,11 @@
   padding-top: 2.2rem; 
 }
 
+.button-price {
+    display: inline-block;
+    height: 100%;
+}
+
 .site-map {
   padding-top: 2rem;
   margin-right: 1rem;
@@ -104,13 +123,23 @@
   }
 }
 
+.footer-img {
+    width: 5.75rem;
+    padding-bottom: 0.5rem;
+}
+
 .underline-dot {
   border-bottom: 1px dotted white;
 }
 
-.button-padding {
+.button-padding-sm {
   display: block;
-  padding: 0.1rem 0.6rem;
+  padding: 0.1em 0.6em;
+}
+
+.button-padding-md {
+  display: block;
+  padding: 0.27em 0.6em;
 }
 
 
@@ -125,12 +154,13 @@
 
 .green-bg-mid { background-color: #7ecf71 }
 
+.green-text-mid { color: #7ecf71 }
+
 .mid-grey { color: #808084; }
 
 .orange { color: #f68933; }
 
 .white { color: #fff; }
-
 
 
 
@@ -143,9 +173,12 @@
 .font-size-14 { font-size: 0.875rem;  }
 .font-size-19 { font-size: 1.1875rem; }
 .font-size-20 { font-size: 1.25rem;   }
+.font-size-21 { font-size: 1.3125rem; }
 .font-size-25 { font-size: 1.5625rem; }
 .font-size-26 { font-size: 1.625rem;  }
 .font-size-30 { font-size: 1.875rem;  }
+.font-size-36 { font-size: 2.25rem;   }
+.font-size-48 { font-size: 3rem;      }
 
 .font-light      { font-weight: 300; }
 .font-normal     { font-weight: 400; }
@@ -153,14 +186,19 @@
 .font-bold       { font-weight: 700; }
 .font-extra-bold { font-weight: 800; }
 
+.font-italic { font-style: italic; }
 
+.font-shadow { text-shadow: 0.1rem 0.1rem 0.3rem black;}
 
 
 
 // --- HELPER CLASSES --- //
 
 .padding-top-16 { padding-top: 1.6rem; }
+.padding-top-25 { padding-top: 2.5rem; }
 .padding-top-7  { padding-top: 7rem;   }
 .padding-top-9  { padding-top: 9rem;   }
+
+.width-120 { width: 120%; }
 
 
