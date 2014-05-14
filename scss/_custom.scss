@@ -38,23 +38,22 @@
   text-align: center;
   vertical-align: middle;
   padding-top: 1.5rem;
+  position: relative;
 }
 
 .nav-sub-link {
   color: #525252;
+  position: relative;
 }
 
 .nav-sub-link-active {
   color: white;
-  &:before {
+  &:after {
+    display: block;
     content: '';
-    height: 0;
-    width: 0;
-    position: relative;
-    bottom: -0.6rem;
-    left: 3.4rem;     
+    width: 1rem;
+    margin: 0.4375rem auto 0;
     border-bottom: 1rem solid white;
-    border-top: 1rem solid transparent;
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
   }
