@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>FitBand Nullam Quam</title>
 <link rel="stylesheet" href="css/app.css" />
-<script src="bower_components/modernizr/modernizr.js"></script>
 <script src="js/prefixfree.min.js"></script>
+<script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
 
@@ -22,11 +22,11 @@
             </div>
             <div class="medium-6 columns left">
                 <ul class="medium-block-grid-5">
-                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white" href="#">PRODUCTS</a></li>
-                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white" href="#">ABOUT US</a></li>
-                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white" href="#">SUPPORT</a></li>
-                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white" href="#">BLOG</a></li>
-                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white" href="#">COMMUNITY</a></li>
+                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white-text" href="#">PRODUCTS</a></li>
+                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white-text" href="#">ABOUT US</a></li>
+                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white-text" href="#">SUPPORT</a></li>
+                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white-text" href="#">BLOG</a></li>
+                    <li class="nav-top-link"><a class="font-semi-bold font-size-14 white-text" href="#">COMMUNITY</a></li>
                 </ul>
             </div>
         </div>
@@ -36,10 +36,10 @@
     <div class="row">
         <div class="medium-5 medium-offset-1 columns carousel-text font-shadow">
             <span class="font-italic">
-                <span class="font-bold font-size-48 white">FitBand</span><span class="font-size-48 font-normal green-text-mid">pro</span>
+                <span class="font-bold font-size-48 white-text">FitBand</span><span class="font-size-48 font-normal green-text-mid">pro</span>
                 <span class="font-normal green-text-mid font-size-12">only</span>
                 <span class="font-normal green-text-mid font-size-36">$145</span><br>
-            <span class="font-normal font-size-21 white">Lorem ipsum dolor amet, con adipiscining nammes sit cursus mor, nibh lorem ipsum dolor adipiscing elit nam elit sit. Lorem Ipsum dolor sit nibh lorem ipsum.</span>
+            <span class="font-normal font-size-21 white-text">Lorem ipsum dolor amet, con adipiscining nammes sit cursus mor, nibh lorem ipsum dolor adipiscing elit nam elit sit. Lorem Ipsum dolor sit nibh lorem ipsum.</span>
             <button></button>
         </div>
     </div>
@@ -62,10 +62,10 @@
     <div class="row carousel-text font-shadow">
         <div class="medium-5 medium-offset-1 columns">
             <span class="font-italic">
-                <span class="font-bold font-size-48 white">FitBand</span><span class="font-size-48 font-normal green-text-mid">pro</span>
+                <span class="font-bold font-size-48 white-text">FitBand</span><span class="font-size-48 font-normal green-text-mid">pro</span>
                 <span class="font-normal green-text-mid font-size-12">only</span>
                 <span class="font-normal green-text-mid font-size-36">$145</span><br>
-            <span class="font-normal font-size-21 white">Lorem ipsum dolor amet, con adipiscining nammes sit cursus mor, nibh lorem ipsum dolor adipiscing elit nam elit sit. Lorem Ipsum dolor sit nibh lorem ipsum.</span>
+            <span class="font-normal font-size-21 white-text">Lorem ipsum dolor amet, con adipiscining nammes sit cursus mor, nibh lorem ipsum dolor adipiscing elit nam elit sit. Lorem Ipsum dolor sit nibh lorem ipsum.</span>
             <button></button>
         </div>
     </div>
@@ -74,7 +74,7 @@
     <div class="row nav-sub">
         <div class="medium-12 columns medium-centered">
             <ul class="medium-block-grid-5">
-                <li><a class="nav-sub-link font-size-20 nav-sub-link-active" href="#">Features</a></li>
+                <li class="nav-sub-link-active"><a class="nav-sub-link font-size-20" href="#">Features</a></li>
                 <li><a class="nav-sub-link font-size-20" href="#">Tech Specs</a></li>
                 <li><a class="nav-sub-link font-size-20" href="#">Design &amp; Technology</a></li>
                 <li><a class="nav-sub-link font-size-20" href="#">Expert Coaching</a></li>
@@ -85,7 +85,7 @@
     
     <div class="row">
         <div class="medium-6 medium-offset-1 columns padding-top-9">
-            <span class="content-heading font-size-30 font-bold orange">Dolor Fitness Lorem Ipsul<br>
+            <span class="content-heading font-size-30 font-bold orange-text">Dolor Fitness Lorem Ipsul<br>
                                                                           Dolor Sit Nullum Consecutir</span>
             <span class="content-text mid-grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leo.</span>
         </div>
@@ -100,29 +100,34 @@
     
     <div class="row">
         <div class="medium-3 medium-offset-1 columns content-img">
-            <img src="img/iphone2.png" alt="">
+            <img id="iphone1" class="" src="img/iphone2-eating.png" alt="">
+            <img id="iphone2" class="hide" src="img/iphone2-sleeping.png" alt="">
+            <img id="iphone3" class="hide" src="img/iphone2-playtime.png" alt="">
         </div>
-        <div class="medium-8 columns left padding-top-16">
-            <img src="img/eating-habits.png" alt="">
-            <span id="accordion-title" class="content-heading font-size-30 font-bold green-text-mid">Eating Habits</span>
+        <div class="medium-8 columns left padding-top-25">
+            <img id="icon1" class="" src="img/eating-habits.png" alt="">
+            <img id="icon2" class="hide" src="img/moon.png" alt="">
+            <img id="icon3" class="hide" src="img/playing-habits.png" alt="">
+            <span id="accordion-title" class="content-heading font-size-30 font-bold green-text-mid"><span id="title1" class="">Eating Habits</span></span>
+            <span id="accordion-title" class="content-heading font-size-30 font-bold blue-text"><span id="title2" class="hide">Sleeping Habits</span></span>
+            <span id="accordion-title" class="content-heading font-size-30 font-bold orange-text"><span id="title3" class="hide">Playtime</span></span>
             <dl class="accordion" data-accordion>
                 <dd>
-                    <a class="border-radius-1 green-bg-mid white font-normal" href="#panel1">Lorem Ipsum Dolor Sit</a>
-<!--                    <img src="img/arrow.png" alt="" class="right">-->
+                    <a id="link1" class="border-radius-1  green-bg-mid white-text font-normal" href="#panel1">Lorem Ipsum Dolor Sit <img src="img/arrow-up.png" alt="" class="right arrow"></a>
                     <div id="panel1" class="content active">
-                    Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                    Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos.
                     </div>
                 </dd>
                 <dd>
-                    <a class="border-radius-1" href="#panel2">Accumsan Ipsum Velit</a>
+                    <a id="link2" class="border-radius-1 blue-bg white-text font-normal" href="#panel2">Accumsan Ipsum Velit <img src="img/arrow-up.png" alt="" class="right arrow"></a>
                     <div id="panel2" class="content">
-                    Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                    Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos.
                     </div>
                 </dd>
                 <dd>
-                    <a class="border-radius-1" href="#panel3">Duis nibh Vulputate Cursus</a>
+                    <a id="link3" class="border-radius-1 orange-bg white-text font-normal" href="#panel3">Duis nibh Vulputate Cursus <img src="img/arrow-up.png" alt="" class="right arrow"></a>
                     <div id="panel3" class="content">
-                    Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                    Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos.
                     </div>
                 </dd>
             </dl> 
@@ -135,7 +140,7 @@
 
     <div class="row">
         <div class="medium-6 medium-offset-1 columns padding-top-7">
-            <span class="content-heading font-size-30 font-bold blue">Sleepy Puppy Lorem Ipsul Dolor<br>
+            <span class="content-heading font-size-30 font-bold blue-text">Sleepy Puppy Lorem Ipsul Dolor<br>
                                                Sit Nullum Consecutir</span>
             <span class="content-text mid-grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leoid, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leo.</span>
         </div>
@@ -145,12 +150,12 @@
     </div>
 
     <div class="row footer-top">
-        <div class="medium-7 medium-offset-1 columns white">
+        <div class="medium-7 medium-offset-1 columns white-text">
             <span class="tagline font-size-26 font-normal">FitBand lorem ipsum dolor sit amet nullum.</span>
         </div>
         <div class="medium-5 medium-offset-1 columns padding-top-16">
             <button class="medium round green-bg-light font-semi-bold font-size-20 button-padding-md">
-                <a class="white" href="#"><span class="button-price font-bold font-size-25 green-bg-dark">$149</span> pre-order now</a>
+                <a class="white-text" href="#"><span class="button-price font-bold font-size-25 green-bg-dark">$149</span> pre-order now</a>
             </button>
 <!--
             <div class="button-group round padding-top-16">
@@ -166,56 +171,56 @@
         <ul class="medium-block-grid-5">
             <li>
                 <dl class="site-map font-size-12">
-                    <dt class="white underline-dot">products</dt>
-                    <dd><a class="white" href="#">fitband</a></dd>
-                    <dd><a class="white" href="#">fitband pro</a></dd>
+                    <dt class="white-text underline-dot">products</dt>
+                    <dd><a class="white-text" href="#">fitband</a></dd>
+                    <dd><a class="white-text" href="#">fitband pro</a></dd>
                 </dl>
             </li>
             <li>
                 <dl class="site-map font-size-12">
-                    <dt class="white underline-dot">about us</dt>
-                    <dd><a class="white" href="#">our company</a></dd>
-                    <dd><a class="white" href="#">our team</a></dd>
-                    <dd><a class="white" href="#">lark in the news</a></dd>
-                    <dd><a class="white" href="#">media resources</a></dd>
-                    <dd><a class="white" href="#">work with us</a></dd>
-                    <dd><a class="white" href="#">contact us</a></dd>
+                    <dt class="white-text underline-dot">about us</dt>
+                    <dd><a class="white-text" href="#">our company</a></dd>
+                    <dd><a class="white-text" href="#">our team</a></dd>
+                    <dd><a class="white-text" href="#">lark in the news</a></dd>
+                    <dd><a class="white-text" href="#">media resources</a></dd>
+                    <dd><a class="white-text" href="#">work with us</a></dd>
+                    <dd><a class="white-text" href="#">contact us</a></dd>
                 </dl>
             </li>
             <li>
                 <dl class="site-map font-size-12">
-                    <dt class="white underline-dot">support</dt>
-                    <dd><a class="white" href="#">privacy policy</a></dd>
-                    <dd><a class="white" href="#">user manual</a></dd>
+                    <dt class="white-text underline-dot">support</dt>
+                    <dd><a class="white-text" href="#">privacy policy</a></dd>
+                    <dd><a class="white-text" href="#">user manual</a></dd>
                 </dl>
             </li>
             <li>
                 <dl class="site-map font-size-12">
-                    <dt class="white underline-dot">blog</dt>
-                    <dd><a class="white" href="#"></a></dd>
-                    <dd><a class="white" href="#"></a></dd>
+                    <dt class="white-text underline-dot">blog</dt>
+                    <dd><a class="white-text" href="#"></a></dd>
+                    <dd><a class="white-text" href="#"></a></dd>
                 </dl>
             </li>
             <li>
                 <dl class="site-map font-size-12 width-120">
-                    <dt class="white underline-dot">refer a friend</dt>
-                    <dd><a class="white" href="#">Refer Fitband to your friends and earn rewards!</a></dd>
+                    <dt class="white-text underline-dot">refer a friend</dt>
+                    <dd><a class="white-text" href="#">Refer Fitband to your friends and earn rewards!</a></dd>
                 </dl>
             </li>
         </ul>
     </div>
     <div class="medium-3 medium-offset-1 columns left">
         <dl class="site-map font-size-12">
-            <dt class="white underline-dot">fitband newsletter</dt>
-            <dd><a class="white" href="#">Sign up to receive unique offers and fitband news.</a></dd>
-            <dd><a class="white" href="#"></a></dd>
+            <dt class="white-text underline-dot">fitband newsletter</dt>
+            <dd><a class="white-text" href="#">Sign up to receive unique offers and fitband news.</a></dd>
+            <dd><a class="white-text" href="#"></a></dd>
         </dl>
     </div>
 
     <div class="row">
         <div class="medium-12 medium-offset-1 columns padding-top-25">
             <img class="footer-img" src="img/logo.png" alt="FitBand">
-            <div class="white">
+            <div class="white-text">
                 &copy;2014 Fitband Technologies. All rights reserved. Fitband is a trademark of Fitband Technologies, Inc.
             </div>
         </div>

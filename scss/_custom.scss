@@ -6,6 +6,10 @@
     margin-right: 0;
 }
 
+.hide {
+  display: none !important;
+}
+
 .carousel {
   position: relative;
   margin-top: -8.0625rem;
@@ -61,15 +65,18 @@
 }
 
 .nav-sub-link-active {
-  color: white;
-  &:after {
-    display: block;
+  a {
+    color: white;
+  }
+  &:before {
+    position: relative;
+    bottom: -0.7rem;
     content: '';
     width: 1rem;
-    margin: 0.4375rem auto 0;
     border-bottom: 1rem solid white;
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
+    left: 3.5rem;
   }
   &:hover {
     color: white;
@@ -79,8 +86,8 @@
 .content-heading {
   display: block;
   width: 30rem;
-  padding-bottom: 0.5rem; 
-  line-height: 2.1rem;
+  padding-bottom: 0.2rem; 
+  line-height: 2.8rem;
 }
 
 .content-text {
@@ -146,13 +153,12 @@
   a {
     padding-left: 1rem !important;
     &:not(.white):after {
-      content:url("../img/arrow-down.png");
+      // content:url("../img/arrow-down.png");
     }
   }
-  a[class*='white'] {
-    &:after{
-      content:url("../img/arrow-up.png");
-    }
+  .arrow {
+    margin-right: 0.4rem;
+    margin-top: 0.2rem;
   }
   .content {
     padding-left: 1rem !important;
@@ -160,9 +166,15 @@
   }
 }
 
+
+
+
+
 // --- COLORS --- //
 
-.blue { color: #0c4fb5; }
+.blue-text { color: #0c4fb5 !important; }
+
+.blue-bg { background-color: #155fcf !important; }
 
 .green-bg-dark { background-color: #199540 !important; }
 
@@ -174,9 +186,13 @@
 
 .mid-grey { color: #808084 !important; }
 
-.orange { color: #f68933 !important; }
+.orange-text { color: #f68933 !important; }
 
-.white { color: #fff !important; }
+.orange-bg { background-color: #f68933 !important; }
+
+.white-text { color: #fff !important; }
+
+
 
 
 
