@@ -21,6 +21,10 @@ $(document).ready(function () {
     $('#iphone1').removeClass('hide');
     $('#iphone2').addClass('hide');
     $('#iphone3').addClass('hide');
+    
+    $('#arrow1').attr('src','img/arrow-up.png')
+    $('#arrow2').attr('src','img/arrow-down.png')
+    $('#arrow3').attr('src','img/arrow-down.png')
   });
   
   $('#link2').click(function(){
@@ -36,6 +40,10 @@ $(document).ready(function () {
     $('#iphone2').removeClass('hide');
     $('#iphone3').addClass('hide');
     
+    $('#arrow1').attr('src','img/arrow-down.png')
+    $('#arrow2').attr('src','img/arrow-up.png')
+    $('#arrow3').attr('src','img/arrow-down.png')
+    
   });
 
   $('#link3').click(function(){
@@ -50,6 +58,10 @@ $(document).ready(function () {
     $('#iphone1').addClass('hide');
     $('#iphone2').addClass('hide');
     $('#iphone3').removeClass('hide');
+    
+    $('#arrow1').attr('src','img/arrow-down.png')
+    $('#arrow2').attr('src','img/arrow-down.png')
+    $('#arrow3').attr('src','img/arrow-up.png')
   });
   
 });

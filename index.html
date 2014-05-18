@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="row nav-top">
+    <div class="row nav-top collapse">
         <div class="row">
             <div class="medium-2 medium-offset-12 columns padding-top-16">
                 <button class="tiny round green-bg-mid font-semi-bold"><span class="button-padding-sm font-size-11">LOGIN</span></button>
@@ -87,7 +87,7 @@
         <div class="medium-6 medium-offset-1 columns padding-top-9">
             <span class="content-heading font-size-30 font-bold orange-text">Dolor Fitness Lorem Ipsul<br>
                                                                           Dolor Sit Nullum Consecutir</span>
-            <span class="content-text mid-grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leo.</span>
+            <span class="content-text grey-text-mid">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leo.</span>
         </div>
         <div class="medium-6 columns content-img">
             <img src="img/iphone1.jpg" alt="">
@@ -112,20 +112,20 @@
             <span id="accordion-title" class="content-heading font-size-30 font-bold blue-text"><span id="title2" class="hide">Sleeping Habits</span></span>
             <span id="accordion-title" class="content-heading font-size-30 font-bold orange-text"><span id="title3" class="hide">Playtime</span></span>
             <dl class="accordion" data-accordion>
-                <dd>
-                    <a id="link1" class="border-radius-1  green-bg-mid white-text font-normal" href="#panel1">Lorem Ipsum Dolor Sit <img src="img/arrow-up.png" alt="" class="right arrow"></a>
+                <dd class="active">
+                    <a id="link1" class="border-radius-1  green-bg-mid white-text font-normal" href="#panel1">Lorem Ipsum Dolor Sit <img id="arrow1" src="img/arrow-up.png" alt="" class="right arrow"></a>
                     <div id="panel1" class="content active">
                     Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos.
                     </div>
                 </dd>
                 <dd>
-                    <a id="link2" class="border-radius-1 blue-bg white-text font-normal" href="#panel2">Accumsan Ipsum Velit <img src="img/arrow-up.png" alt="" class="right arrow"></a>
+                    <a id="link2" class="border-radius-1 blue-bg white-text font-normal" href="#panel2">Accumsan Ipsum Velit <img id="arrow2" src="img/arrow-down.png" alt="" class="right arrow"></a>
                     <div id="panel2" class="content">
                     Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos.
                     </div>
                 </dd>
                 <dd>
-                    <a id="link3" class="border-radius-1 orange-bg white-text font-normal" href="#panel3">Duis nibh Vulputate Cursus <img src="img/arrow-up.png" alt="" class="right arrow"></a>
+                    <a id="link3" class="border-radius-1 orange-bg white-text font-normal" href="#panel3">Duis nibh Vulputate Cursus <img id="arrow3" src="img/arrow-down.png" alt="" class="right arrow"></a>
                     <div id="panel3" class="content">
                     Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. nostra, per inceptos himenaeos.
                     </div>
@@ -142,7 +142,7 @@
         <div class="medium-6 medium-offset-1 columns padding-top-7">
             <span class="content-heading font-size-30 font-bold blue-text">Sleepy Puppy Lorem Ipsul Dolor<br>
                                                Sit Nullum Consecutir</span>
-            <span class="content-text mid-grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leoid, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leo.</span>
+            <span class="content-text grey-text-mid">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leoid, condimentum at, laoreet mattis, massa. Sed eleifend nonummy. Nullam enim leo.</span>
         </div>
         <div class="medium-5 medium-offset-2 columns content-img">
             <img src="img/sleepy-pup.png" alt="">
@@ -153,10 +153,16 @@
         <div class="medium-7 medium-offset-1 columns white-text">
             <span class="tagline font-size-26 font-normal">FitBand lorem ipsum dolor sit amet nullum.</span>
         </div>
-        <div class="medium-5 medium-offset-1 columns padding-top-16">
+        <div class="medium-5 medium-offset-1 columns padding-top-18">
+            <ul class="button-group round">
+              <li class="button green-bg-dark font-semi-bold font-size-25 button-padding-md"><a class="white-text" href="#">$149</a></li>
+              <li class="button green-bg-light font-semi-bold font-size-20 button-padding-lg"><a class="white-text" href="#">pre-order now</a></li>
+            </ul>
+<!--
             <button class="medium round green-bg-light font-semi-bold font-size-20 button-padding-md">
                 <a class="white-text" href="#"><span class="button-price font-bold font-size-25 green-bg-dark">$149</span> pre-order now</a>
             </button>
+-->
 <!--
             <div class="button-group round padding-top-16">
                 <li><a class="medium green-bg-dark button" href="#"><span class="font-bold font-size-25 button-padding-sm">$149</a></li>
@@ -213,7 +219,18 @@
         <dl class="site-map font-size-12">
             <dt class="white-text underline-dot">fitband newsletter</dt>
             <dd><a class="white-text" href="#">Sign up to receive unique offers and fitband news.</a></dd>
-            <dd><a class="white-text" href="#"></a></dd>
+            <dd>
+              <form>
+                <div class="row collapse padding-top-0625">
+                  <div class="medium-14 columns">
+                    <input type="text" placeholder="your email" />
+                  </div>
+                  <div class="medium-1 columns right ">
+                    <a href="#" class="button postfix transparent grey-text-mid margin-top-minus-3">❯</a>
+                  </div>
+                </div>
+              </form>
+            </dd>
         </dl>
     </div>
 
