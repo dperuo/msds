@@ -6,6 +6,10 @@ input {
   height: 1.8rem !important;
 }
 
+.row .row {
+  margin: 0;
+}
+
 .hide {
   display: none !important;
 }
@@ -16,13 +20,18 @@ input {
   z-index: -1;
 }
 
-//.carousel-text {
-//  position: relative;
-//  height: 0;
-//  top: 5rem;
-//  z-index: 2;
-//  overflow: visible;
-//}
+.carousel-text {
+  position: relative;
+  height: 0;
+  margin-top: -20.5rem;
+  line-height: 1.5rem;
+//  .only {
+//    margin-left: -0.4rem;
+//  }
+  .carousel-text-body {
+    padding-top: 0.75rem;
+  }
+}
 
 .orbit-container {
   .orbit-bullets {
@@ -121,12 +130,6 @@ input {
     display: inline-block;
     height: 100%;
 }
-
-//.button-email {
-//  position: relative;
-//  right: -622%;
-//  margin-top: -149%;
-//}
 
 .site-map {
   padding-top: 2rem;
@@ -237,7 +240,7 @@ input {
 
 .font-italic { font-style: italic; }
 
-.font-shadow { text-shadow: 0.1rem 0.1rem 0.3rem black;}
+.font-shadow { text-shadow: 0px 0px 0.4rem #555; }
 
 
 
@@ -250,8 +253,13 @@ input {
 .padding-top-7    { padding-top: 7rem;     }
 .padding-top-9    { padding-top: 9rem;     }
 
-.margin-top-minus-3 { margin-top: -3rem; }
+.padding-right-170 { padding-right: 17rem; }
+
+.margin-top-minus-3  { margin-top: -3rem;   }
+.margin-top-minus-04 { margin-top: -0.4rem; }
+
+.margin-left-minus-04 { margin-left: -0.4rem; }
 
 .width-120 { width: 120%; }
 
-//.border-radius-1 { border-radius: 1rem; }
+.border-radius-1 { border-radius: 1rem; }
