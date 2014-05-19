@@ -6735,6 +6735,12 @@ input {
   z-index: -1;
 }
 
+@-moz-document url-prefix() {
+  .carousel {
+    margin-top: -9.0625rem;
+  }
+}
+
 .carousel-text {
   position: relative;
   height: 0;
@@ -6794,6 +6800,11 @@ input {
   border-left: 1rem solid transparent;
   border-right: 1rem solid transparent;
   left: 3.5rem;
+}
+@media only screen and (min-width: 40.063em) {
+  .nav-sub-link-active:before {
+    left: 3.2rem;
+  }
 }
 .nav-sub-link-active:hover {
   color: white;
@@ -6858,6 +6869,11 @@ input {
 .button-padding-md {
   display: block;
   padding: 0.9% 4%;
+}
+
+.button-padding-lg {
+  display: block;
+  padding: 2.5% 4%;
 }
 
 .accordion a {
@@ -6948,6 +6964,11 @@ input {
 .font-size-20 {
   font-size: 1.25rem;
 }
+@media only screen and (min-width: 40.063em) {
+  .font-size-20 {
+    font-size: 1.2rem;
+  }
+}
 
 .font-size-21 {
   font-size: 1.3125rem;
@@ -6960,6 +6981,11 @@ input {
 .font-size-26 {
   font-size: 1.625rem;
 }
+@media only screen and (min-width: 40.063em) {
+  .font-size-26 {
+    font-size: 1.5rem;
+  }
+}
 
 .font-size-30 {
   font-size: 1.875rem;
@@ -6971,6 +6997,11 @@ input {
 
 .font-size-48 {
   font-size: 3rem;
+}
+@media only screen and (min-width: 40.063em) {
+  .font-size-48 {
+    font-size: 2.5rem;
+  }
 }
 
 .font-light {
@@ -7001,6 +7032,10 @@ input {
   text-shadow: 0px 0px 0.4rem #555;
 }
 
+.no-font-shadow {
+  text-shadow: none;
+}
+
 .padding-top-0625 {
   padding-top: 0.625rem;
 }
@@ -7015,6 +7050,11 @@ input {
 
 .padding-top-25 {
   padding-top: 2.5rem;
+}
+@media only screen and (min-width: 40.063em) {
+  .padding-top-25 {
+    padding-top: 1rem;
+  }
 }
 
 .padding-top-7 {
