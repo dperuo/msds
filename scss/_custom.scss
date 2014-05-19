@@ -65,7 +65,6 @@ input {
   vertical-align: middle;
   padding-top: 1.5rem;
   position: relative;
-  // margin-top: 8.5rem;
 }
 
 .nav-sub-link {
@@ -126,11 +125,6 @@ input {
   padding-top: 2.2rem; 
 }
 
-.button-price {
-    display: inline-block;
-    height: 100%;
-}
-
 .site-map {
   padding-top: 2rem;
   margin-right: 1rem;
@@ -150,25 +144,17 @@ input {
 
 .button-padding-sm {
   display: block;
-  padding: 0.1em 0.6em;
+  padding: 2% 18%;
 }
 
 .button-padding-md {
   display: block;
-  padding: 0.15em 0.7em;
-}
-
-.button-padding-lg {
-  display: block;
-  padding: 0.37em 0.7em;
+  padding: 0.9% 4%;
 }
 
 .accordion {
   a {
     padding-left: 1rem !important;
-    &:not(.white):after {
-      // content:url("../img/arrow-down.png");
-    }
   }
   .arrow {
     margin-right: 0.4rem;
@@ -186,7 +172,10 @@ input {
   }
 }
 
-
+.pre-order {
+  position: relative;
+  top: -0.17rem;
+}
 
 
 

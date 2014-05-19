@@ -6833,11 +6833,6 @@ input {
   padding-top: 2.2rem;
 }
 
-.button-price {
-  display: inline-block;
-  height: 100%;
-}
-
 .site-map {
   padding-top: 2rem;
   margin-right: 1rem;
@@ -6857,17 +6852,12 @@ input {
 
 .button-padding-sm {
   display: block;
-  padding: 0.1em 0.6em;
+  padding: 2% 18%;
 }
 
 .button-padding-md {
   display: block;
-  padding: 0.15em 0.7em;
-}
-
-.button-padding-lg {
-  display: block;
-  padding: 0.37em 0.7em;
+  padding: 0.9% 4%;
 }
 
 .accordion a {
@@ -6884,6 +6874,11 @@ input {
 .accordion dd:not(.active) a {
   background-color: #f2f2f2 !important;
   color: #808084 !important;
+}
+
+.pre-order {
+  position: relative;
+  top: -0.17rem;
 }
 
 .blue-text {
