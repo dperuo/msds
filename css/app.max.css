@@ -8287,7 +8287,7 @@ input {
 .font-size-20 {
   font-size: 1.25rem;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 228, ../scss/_custom.scss */
   .font-size-20 {
     font-size: 1.2rem;
@@ -8308,7 +8308,7 @@ input {
 .font-size-26 {
   font-size: 1.625rem;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 231, ../scss/_custom.scss */
   .font-size-26 {
     font-size: 1.5rem;
@@ -8329,7 +8329,7 @@ input {
 .font-size-48 {
   font-size: 3rem;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 234, ../scss/_custom.scss */
   .font-size-48 {
     font-size: 2.5rem;
@@ -8395,7 +8395,7 @@ input {
 .padding-top-25 {
   padding-top: 2.5rem;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 255, ../scss/_custom.scss */
   .padding-top-25 {
     padding-top: 1rem;
