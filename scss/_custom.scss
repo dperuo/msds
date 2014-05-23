@@ -31,9 +31,6 @@ input {
   height: 0;
   margin-top: -20.5rem;
   line-height: 1.5rem;
-//  .only {
-//    margin-left: -0.4rem;
-//  }
   .carousel-text-body {
     padding-top: 0.75rem;
   }
@@ -145,10 +142,6 @@ input {
     padding-bottom: 0.5rem;
 }
 
-.underline-dot {
-  border-bottom: 1px dotted white;
-}
-
 .button-padding-sm {
   display: block;
   padding: 2% 18%;
@@ -258,11 +251,15 @@ input {
 
 .padding-right-170 { padding-right: 17rem; }
 
-.margin-top-minus-3  { margin-top: -3rem;   }
 .margin-top-minus-04 { margin-top: -0.4rem; }
+.margin-top-minus-3  { margin-top: -3rem;   }
 
 .margin-left-minus-04 { margin-left: -0.4rem; }
 
 .width-120 { width: 120%; }
 
 .border-radius-1 { border-radius: 1rem; }
+
+.underline-dot { border-bottom: 1px dotted white; }
+
+
