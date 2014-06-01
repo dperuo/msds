@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"foot",
+				"footer-top__order-btn"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
 				"lh",
 				"line-height"
 			],
 			[
 				"wid",
 				"width"
-			],
-			[
-				"he",
-				"header-top__nav-item"
 			]
 		]
 	},
@@ -23,7 +31,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 843,
+				"buffer_size": 1262,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +39,15 @@
 			"file": "scss/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 43280,
+				"buffer_size": 43347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.html",
+			"settings":
+			{
+				"buffer_size": 1195,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +55,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7855,
+				"buffer_size": 1680,
 				"line_ending": "Unix"
 			}
 		}
@@ -47,7 +63,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -89,8 +105,9 @@
 	"file_history":
 	[
 		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/app.scss",
-		"/Users/derekperuo/Dropbox/Public/sites/msds/nav-top.html",
 		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/index.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/nav-top.html",
 		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
 		"/Users/derekperuo/Desktop/untitled.jade",
 		"/Users/derekperuo/Desktop/untitled.styl",
@@ -122,6 +139,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"button.*size",
 			"button",
 			"column",
 			"block.*?grid",
@@ -148,7 +166,6 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
@@ -156,15 +173,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 843,
+						"buffer_size": 1262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								500,
-								500
+								955,
+								955
 							]
 						],
 						"settings":
@@ -174,7 +191,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 247.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -184,15 +201,15 @@
 					"file": "scss/_settings.scss",
 					"settings":
 					{
-						"buffer_size": 43280,
+						"buffer_size": 43347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11979,
-								11979
+								11407,
+								11407
 							]
 						],
 						"settings":
@@ -200,7 +217,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6574.0,
+						"translation.y": 6738.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -213,28 +230,56 @@
 			[
 				{
 					"buffer": 2,
-					"file": "index.html",
+					"file": "footer.html",
 					"settings":
 					{
-						"buffer_size": 7855,
+						"buffer_size": 1195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
+								770,
+								770
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

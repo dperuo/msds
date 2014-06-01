@@ -8,8 +8,8 @@
  // ---------- HEADER TOP ---------- //
 
 .header-top {
-  background-color: rgba(0,82,204,0.9);
   height: 8.125em;
+  background-color: rgba(0,82,204,0.9);
   box-shadow: 0 1px 4px black;
 }
 
@@ -24,8 +24,9 @@
 }
 
 .header-top__login-btn {
-  width: 4.5em;
-  line-height: 1.5;
+  padding: 0 0.7em;
+  font-size: 0.6875em;
+  line-height: 1.7;
 }
 
 .header-top__login-row {
@@ -46,4 +47,45 @@
 
 
 
+ // ---------- FOOTER ---------- //
+
+$footer-top-height: 6.25em;
+
+
+.footer-top {
+  height: $footer-top-height;
+  background-color: #9ee892;
+  background: url("../img/bg-footer-top.jpg") repeat-x;
+}
+
+.footer-top__tagline {
+  font-size: 1.625em;
+  color: white;  
+}
+
+.footer-top__order-btn {
+  padding: 0 1.1em;
+  font-size: 1.5625rem; // 1.25em;
+  line-height: 1.6;
+}
+
+.footer-top--vertical-center {
+  height: 100%;
+  line-height: $footer-top-height;
+}
+
+.footer-sub {
+  height: 17.75em;
+  background-color: #0c4fb5;
+}
+
+
+
+
+
+
+
+
  // ---------- HELPER CLASSES ---------- //
+
+
