@@ -1,5 +1,49 @@
-.header--top {
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic);
+
+
+ 
+
+
+ // ---------- HEADER TOP ---------- //
+
+.header-top {
   background-color: rgba(0,82,204,0.9);
   height: 8.125em;
   box-shadow: 0 1px 4px black;
 }
+
+.header-top__nav-list {
+  text-align: center;
+}
+
+.header-top__nav-item {
+  font-size: .875rem;
+  font-weight: 600;
+  color: white;
+}
+
+.header-top__login-btn {
+  width: 4.5em;
+  line-height: 1.5;
+}
+
+.header-top__login-row {
+  padding-top:    1.5em;
+  padding-bottom: 2em;
+}
+
+.logo {
+  margin-top: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+ // ---------- HELPER CLASSES ---------- //
