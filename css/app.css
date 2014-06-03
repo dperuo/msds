@@ -9,61 +9,71 @@
 
 /* line 16, ../scss/_custom.scss */
 .header-top__nav-list {
-  text-align: center;
+  list-style-type: none;
 }
 
-/* line 20, ../scss/_custom.scss */
+/* line 21, ../scss/_custom.scss */
 .header-top__nav-item {
-  font-size: .875rem;
+  float: left;
+  padding-left: 2.2em;
+  font-size: 0.875rem;
   font-weight: 600;
+}
+/* line 26, ../scss/_custom.scss */
+.header-top__nav-item:first-child {
+  padding-left: 0;
+}
+
+/* line 31, ../scss/_custom.scss */
+.header-top__nav-link {
   color: white;
 }
 
-/* line 26, ../scss/_custom.scss */
+/* line 35, ../scss/_custom.scss */
 .header-top__login-btn {
   padding: 0 0.7em;
   font-size: 0.6875em;
   line-height: 1.7;
 }
 
-/* line 32, ../scss/_custom.scss */
+/* line 41, ../scss/_custom.scss */
 .header-top__login-row {
   padding-top: 1.5em;
   padding-bottom: 2em;
 }
 
-/* line 37, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 .logo {
   margin-top: -7px;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 .footer-top {
   height: 6.25em;
   background-color: #9ee892;
   background: url("../img/bg-footer-top.jpg") repeat-x;
 }
 
-/* line 61, ../scss/_custom.scss */
+/* line 70, ../scss/_custom.scss */
 .footer-top__tagline {
   font-size: 1.625em;
   color: white;
 }
 
-/* line 66, ../scss/_custom.scss */
+/* line 75, ../scss/_custom.scss */
 .footer-top__order-btn {
   padding: 0 1.1em;
   font-size: 1.5625rem;
   line-height: 1.6;
 }
 
-/* line 72, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 .footer-top--vertical-center {
   height: 100%;
   line-height: 6.25em;
 }
 
-/* line 77, ../scss/_custom.scss */
+/* line 86, ../scss/_custom.scss */
 .footer-sub {
   height: 17.75em;
   background-color: #0c4fb5;

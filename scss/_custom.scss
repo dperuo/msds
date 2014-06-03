@@ -14,12 +14,21 @@
 }
 
 .header-top__nav-list {
-  text-align: center;
+  // text-align: right;
+  list-style-type: none;
 }
 
 .header-top__nav-item {
-  font-size: .875rem;
+  float: left;
+  padding-left: 2.2em;
+  font-size: 0.875rem;
   font-weight: 600;
+  &:first-child {
+    padding-left: 0;
+  }
+}
+
+.header-top__nav-link {
   color: white;
 }
 
