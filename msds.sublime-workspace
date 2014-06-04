@@ -4,24 +4,60 @@
 		"selected_items":
 		[
 			[
-				"foot",
-				"footer-top__order-btn"
+				"bac",
+				"background-color"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"fl",
+				"fl:l	float:left"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"list",
+				"list:n	list-style-type:none"
+			],
+			[
+				"no",
+				"normal"
 			],
 			[
 				"inl",
 				"inline-block"
 			],
 			[
-				"he",
-				"height"
+				"faq",
+				"faqList"
 			],
 			[
-				"lh",
-				"line-height"
+				"max",
+				"max-width"
 			],
 			[
-				"wid",
-				"width"
+				"fa",
+				"faqList"
+			],
+			[
+				"s",
+				"swapClass"
 			]
 		]
 	},
@@ -31,23 +67,15 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 1262,
+				"buffer_size": 3050,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/_settings.scss",
+			"file": "scss/_hacks.scss",
 			"settings":
 			{
-				"buffer_size": 43347,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.html",
-			"settings":
-			{
-				"buffer_size": 1195,
+				"buffer_size": 248,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +83,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1680,
+				"buffer_size": 3601,
 				"line_ending": "Unix"
 			}
 		}
@@ -63,7 +91,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 327.0,
 		"selected_items":
 		[
 			[
@@ -104,20 +132,35 @@
 	},
 	"file_history":
 	[
-		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/app.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/_hacks.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/footer.html",
 		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/derekperuo/Dropbox/Public/repos/dotfiles/Preferences.sublime-settings",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/subnav4.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/app.scss",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/index.html",
-		"/Users/derekperuo/Dropbox/Public/sites/msds/nav-top.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/_custom.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/dbp/assets/js/credits.js",
+		"/Users/derekperuo/Desktop/the-real-html5-bp.html",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/index.html",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/css/app.css",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/scss/_custom.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/scss/_settings.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/app.js",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/app.coffee",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/faq.json",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/accordion.html",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/test.js",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/app.old.js",
 		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
 		"/Users/derekperuo/Desktop/untitled.jade",
 		"/Users/derekperuo/Desktop/untitled.styl",
 		"/Users/derekperuo/Dropbox/Misc/installedApps_10_6.txt",
 		"/Users/derekperuo/Downloads/Installed Apps/checksums.md5",
 		"/Users/derekperuo/Dropbox/Public/sites/msds.draft1/scss/_settings.scss",
-		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/derekperuo/Desktop/main.coffee",
 		"/Users/derekperuo/Documents/Business/Crunch/crunch-resign.txt",
-		"/Users/derekperuo/Dropbox/Public/repos/dotfiles/Preferences.sublime-settings",
 		"/Users/derekperuo/Desktop/coding-quiz-derek-peruo/css/answer-styles.css",
 		"/Users/derekperuo/Desktop/coding-quiz-derek-peruo/index.html",
 		"/Users/derekperuo/Desktop/Hello world!",
@@ -139,13 +182,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"button.*size",
-			"button",
-			"column",
-			"block.*?grid",
-			"block.*grid",
-			"block-grid",
-			"block",
+			"violet",
+			"float",
+			"two",
+			"small-",
+			"    $(",
+			"29px",
+			"sex",
+			"js",
 			"eof",
 			"white",
 			"characters"
@@ -153,7 +197,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 		],
@@ -166,6 +210,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -173,15 +218,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 1262,
+						"buffer_size": 3050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								955,
-								955
+								3049,
+								3049
 							]
 						],
 						"settings":
@@ -191,25 +236,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 2908.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scss/_settings.scss",
+					"file": "scss/_hacks.scss",
 					"settings":
 					{
-						"buffer_size": 43347,
+						"buffer_size": 248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11407,
-								11407
+								203,
+								203
 							]
 						],
 						"settings":
@@ -217,7 +262,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6738.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -230,56 +275,30 @@
 			[
 				{
 					"buffer": 2,
-					"file": "footer.html",
-					"settings":
-					{
-						"buffer_size": 1195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								770,
-								770
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1680,
+						"buffer_size": 3601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								556,
-								556
+								759,
+								759
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 121.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -293,7 +312,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{

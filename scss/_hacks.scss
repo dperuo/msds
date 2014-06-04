@@ -1,0 +1,14 @@
+
+$dev-color: MediumOrchid;
+
+.dev-holder {
+  display: block;
+  margin:  0;
+  padding: 0;
+  font-size: 3em;
+  line-height: 200px;
+  text-align: center;
+  border: 10px solid $dev-color;
+  color: $dev-color;
+  background-color: tint($dev-color, 65);
+}
