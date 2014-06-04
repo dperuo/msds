@@ -14,12 +14,11 @@
           box-shadow: 0 1px 4px black;
 }
 
-.header-top__nav-list {
-  list-style-type: none;
-}
+// .header-top__nav-list {
+
+// }
 
 .header-top__nav-item {
-  float: left;
   padding-left: 2.2em;
   font-size: 0.875rem;
   font-weight: 600;
@@ -30,8 +29,6 @@
 
 .header-top__nav-link {
   color: white;
-  -webkit-transition: all 0.1s ease;
-          transition: all 0.1s ease;
 }
 
 .header-top__login-btn {
@@ -113,8 +110,6 @@ $triangle-box-size: 1.3em;
   color: #525252;
   font-size: 1.1rem;
   text-decoration: none;
-  -webkit-transition: all 0.25s ease;
-          transition: all 0.25s ease;
 }
 
 .header-sub__nav-link:hover,

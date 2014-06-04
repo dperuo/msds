@@ -67,7 +67,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 3050,
+				"buffer_size": 2867,
 				"line_ending": "Unix"
 			}
 		},
@@ -76,6 +76,22 @@
 			"settings":
 			{
 				"buffer_size": 624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 43448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3613,
 				"line_ending": "Unix"
 			}
 		},
@@ -212,7 +228,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -220,15 +236,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 3050,
+						"buffer_size": 2867,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2849,
-								2849
+								1353,
+								1353
 							]
 						],
 						"settings":
@@ -238,7 +254,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2637.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -266,7 +282,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 232.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 43448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20086,
+								20086
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10923.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -278,7 +320,35 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 313.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "button.html",
 					"settings":
 					{
@@ -300,7 +370,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 187.0,
+						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -47,49 +47,41 @@
   box-shadow: 0 1px 4px black;
 }
 
-/* line 17, ../scss/_custom.scss */
-.header-top__nav-list {
-  list-style-type: none;
-}
-
 /* line 21, ../scss/_custom.scss */
 .header-top__nav-item {
-  float: left;
   padding-left: 2.2em;
   font-size: 0.875rem;
   font-weight: 600;
 }
-/* line 26, ../scss/_custom.scss */
+/* line 25, ../scss/_custom.scss */
 .header-top__nav-item:first-child {
   padding-left: 0;
 }
 
-/* line 31, ../scss/_custom.scss */
+/* line 30, ../scss/_custom.scss */
 .header-top__nav-link {
   color: white;
-  -webkit-transition: all 0.1s ease;
-  transition: all 0.1s ease;
 }
 
-/* line 37, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
 .header-top__login-btn {
   padding: 0 0.7em;
   font-size: 0.6875em;
   line-height: 1.7;
 }
 
-/* line 43, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 .header-top__login-row {
   padding-top: 1.5em;
   padding-bottom: 2em;
 }
 
-/* line 48, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
 .logo {
   margin-top: -7px;
 }
 
-/* line 68, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 .header-sub {
   height: 4.875rem;
   background: #b2b2b2;
@@ -98,25 +90,25 @@
   box-shadow: inset 0 -0.1em 0.1em rgba(0, 0, 0, 0.25);
 }
 
-/* line 76, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 .header-sub__nav-list {
   margin: 0;
   padding: 0;
 }
 
-/* line 81, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .header-sub__nav-item {
   display: block;
   float: left;
   line-height: 4.875rem;
   padding-left: 4.1em;
 }
-/* line 86, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .header-sub__nav-item:first-child {
   padding-left: 0;
 }
 
-/* line 91, ../scss/_custom.scss */
+/* line 88, ../scss/_custom.scss */
 .header-sub__nav-item--active:after {
   content: '';
   display: block;
@@ -134,49 +126,47 @@
   box-shadow: 0.1em 0 0 white, 0 0.1em 0 white, -0.1em -0.1em 0.1em rgba(0, 0, 0, 0.25);
 }
 
-/* line 112, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .header-sub__nav-link {
   color: #525252;
   font-size: 1.1rem;
   text-decoration: none;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
 }
 
-/* line 122, ../scss/_custom.scss */
+/* line 117, ../scss/_custom.scss */
 .header-sub__nav-link:hover,
 .header-sub__nav-link--active,
 .header-sub__nav-link--active:hover {
   color: white;
 }
 
-/* line 140, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 .footer-top {
   height: 6.25em;
   background-color: #9ee892;
   background: url("../img/bg-footer-top.jpg") repeat-x;
 }
 
-/* line 146, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .footer-top__tagline {
   font-size: 1.625em;
   color: white;
 }
 
-/* line 151, ../scss/_custom.scss */
+/* line 146, ../scss/_custom.scss */
 .footer-top__order-btn {
   padding: 0 1.1em;
   font-size: 1.5625rem;
   line-height: 1.6;
 }
 
-/* line 157, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 .footer-top--vertical-center {
   height: 100%;
   line-height: 6.25em;
 }
 
-/* line 173, ../scss/_custom.scss */
+/* line 168, ../scss/_custom.scss */
 .footer-sub {
   height: 17.75em;
   background-color: #0c4fb5;
@@ -5170,7 +5160,7 @@ label.error {
 /* line 53, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list {
   margin: 0 auto 1.0625rem auto;
-  margin-left: -1.375rem;
+  margin-left: 0;
   margin-right: 0;
   padding: 0;
   list-style: none;
@@ -5180,7 +5170,7 @@ label.error {
 .inline-list > li {
   list-style: none;
   float: left;
-  margin-left: 1.375rem;
+  margin-left: 0;
   display: block;
 }
 /* line 47, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
