@@ -1,3 +1,13 @@
+// 
+//  HACKS.SCSS
+// 
+//  Fixes, hacks, and temporary duct tape to get the project done.
+//  
+//  Hat tip: Harry Roberts
+//  http://csswizardry.com/2013/04/shame-css/
+//
+//
+
 
 $dev-color: MediumOrchid;
 
@@ -8,9 +18,9 @@ $dev-color: MediumOrchid;
   font-size: 3em;
   line-height: 200px;
   text-align: center;
-  border: 10px solid $dev-color;
+  // border: 10px solid $dev-color;
   color: $dev-color;
-  background-color: tint($dev-color, 65);
+  // background-color: tint($dev-color, 65);
 }
 
 .footer-top__order-btn-dev {
