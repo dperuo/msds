@@ -127,7 +127,7 @@ $triangle-box-size: 1.3em;
 
 
 
-// ---------- FOOTER ---------- //
+// ---------- FOOTER TOP ---------- //
 
 $footer-top-height: 6.25em;
 
@@ -165,7 +165,24 @@ $footer-top-height: 6.25em;
 
  // ---------- FOOTER SUB ---------- //
 
+$footer-sub-height: 17.75rem;
+
 .footer-sub {
-  height: 17.75em;
+  height: $footer-sub-height;
   background-color: #0c4fb5;
+}
+
+.copywright {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em;
+  color: white;
+  &:before {
+    content: '';
+    display: block;
+    height: $footer-sub-height - 2;
+    width: 25px;
+    background-color: MediumOrchid;
+  }
 }
