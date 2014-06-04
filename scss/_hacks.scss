@@ -12,3 +12,25 @@ $dev-color: MediumOrchid;
   color: $dev-color;
   background-color: tint($dev-color, 65);
 }
+
+.footer-top__order-btn-dev {
+  padding: 0;
+  line-height: 1.6;
+}
+
+.footer-top__order-btn--price,
+.footer-top__order-btn--text {
+  display: inline-block;
+  line-height: inherit;
+}
+
+.footer-top__order-btn--price{
+    padding-left: 1.1em;
+    padding-right: 0.25em;
+    font-size: 1.5625rem;
+    background-color: blue;
+}
+
+.footer-top__order-btn--text {
+  font-size: 1.25rem;
+}

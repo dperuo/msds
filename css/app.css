@@ -13,6 +13,32 @@
   background-color: #e6c3ef;
 }
 
+/* line 16, ../scss/_hacks.scss */
+.footer-top__order-btn-dev {
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* line 22, ../scss/_hacks.scss */
+.footer-top__order-btn--price,
+.footer-top__order-btn--text {
+  display: inline-block;
+  line-height: inherit;
+}
+
+/* line 27, ../scss/_hacks.scss */
+.footer-top__order-btn--price {
+  padding-left: 1.1em;
+  padding-right: 0.25em;
+  font-size: 1.5625rem;
+  background-color: blue;
+}
+
+/* line 34, ../scss/_hacks.scss */
+.footer-top__order-btn--text {
+  font-size: 1.25rem;
+}
+
 /* line 10, ../scss/_custom.scss */
 .header-top {
   height: 8.125em;
