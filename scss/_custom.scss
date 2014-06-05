@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic);
 
 
- 
+
 
 
  // ---------- HEADER TOP ---------- //
@@ -94,16 +94,12 @@ $triangle-box-size: 1.3em;
   background: white;
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
-          transform: rotate(45deg);   
-  -webkit-transform-origin: center;   
-      -ms-transform-origin: center;   
+          transform: rotate(45deg);
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
           transform-origin: center;
-  -webkit-box-shadow: 0.1em 0 0 white,
-                      0 0.1em 0 white,
-                      -0.1em -0.1em 0.1em $box-shadow-color;
-          box-shadow: 0.1em 0 0 white,
-                      0 0.1em 0 white,
-                      -0.1em -0.1em 0.1em $box-shadow-color;
+  -webkit-box-shadow: -0.1em -0.1em 0.1em $box-shadow-color;
+          box-shadow: -0.1em -0.1em 0.1em $box-shadow-color;
 }
 
 .header-sub__nav-link {
@@ -140,7 +136,7 @@ $footer-top-height: 6.25em;
 
 .footer-top__tagline {
   font-size: 1.625em;
-  color: white;  
+  color: white;
 }
 
 .footer-top__order-btn {
@@ -172,7 +168,7 @@ $footer-sub-height: 17.75rem;
   background-color: #0c4fb5;
 }
 
-.copywright {
+.copyright {
   display: block;
   margin: 0;
   padding: 0;

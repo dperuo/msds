@@ -9243,66 +9243,66 @@ th.hide-for-touch {
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
-  -webkit-box-shadow: 0.1em 0 0 white, 0 0.1em 0 white, -0.1em -0.1em 0.1em rgba(0, 0, 0, 0.25);
-  box-shadow: 0.1em 0 0 white, 0 0.1em 0 white, -0.1em -0.1em 0.1em rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -0.1em -0.1em 0.1em rgba(0, 0, 0, 0.25);
+  box-shadow: -0.1em -0.1em 0.1em rgba(0, 0, 0, 0.25);
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 105, ../scss/_custom.scss */
 .header-sub__nav-link {
   color: #525252;
   font-size: 1.1rem;
   text-decoration: none;
 }
 
-/* line 117, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .header-sub__nav-link:hover,
 .header-sub__nav-link--active,
 .header-sub__nav-link--active:hover {
   color: white;
 }
 
-/* line 135, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 .footer-top {
   height: 6.25em;
   background-color: #9ee892;
   background: url("../img/bg-footer-top.jpg") repeat-x;
 }
 
-/* line 141, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 .footer-top__tagline {
   font-size: 1.625em;
   color: white;
 }
 
-/* line 146, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .footer-top__order-btn {
   padding: 0 1.1em;
   font-size: 1.5625rem;
   line-height: 1.6;
 }
 
-/* line 152, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 .footer-top--vertical-center {
   height: 100%;
   line-height: 6.25em;
 }
 
-/* line 170, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .footer-sub {
   height: 17.75rem;
   background-color: #0c4fb5;
 }
 
-/* line 175, ../scss/_custom.scss */
-.copywright {
+/* line 171, ../scss/_custom.scss */
+.copyright {
   display: block;
   margin: 0;
   padding: 0;
   font-size: 0.75em;
   color: white;
 }
-/* line 181, ../scss/_custom.scss */
-.copywright:before {
+/* line 177, ../scss/_custom.scss */
+.copyright:before {
   content: '';
   display: block;
   height: 15.75rem;
