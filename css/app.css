@@ -9291,23 +9291,17 @@ th.hide-for-touch {
 .footer-sub {
   height: 17.75rem;
   background-color: #0c4fb5;
-}
-
-/* line 171, ../scss/_custom.scss */
-.copyright {
-  display: block;
-  margin: 0;
-  padding: 0;
-  font-size: 0.75em;
   color: white;
 }
-/* line 177, ../scss/_custom.scss */
-.copyright:before {
-  content: '';
-  display: block;
-  height: 15.75rem;
-  width: 25px;
-  background-color: MediumOrchid;
+
+/* line 176, ../scss/_custom.scss */
+.copyright__img {
+  max-width: 5.75rem;
+}
+
+/* line 180, ../scss/_custom.scss */
+.copyright__text {
+  font-size: 0.75em;
 }
 
 /* line 14, ../scss/_hacks.scss */

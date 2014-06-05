@@ -159,26 +159,39 @@ $footer-top-height: 6.25em;
 
 
 
- // ---------- FOOTER SUB ---------- //
+// ---------- FOOTER SUB ---------- //
 
 $footer-sub-height: 17.75rem;
 
 .footer-sub {
   height: $footer-sub-height;
   background-color: #0c4fb5;
+  color: white;
 }
 
 .copyright {
-  display: block;
-  margin: 0;
-  padding: 0;
+
+}
+
+.copyright__img {
+  max-width: 5.75rem;
+}
+
+.copyright__text {
   font-size: 0.75em;
-  color: white;
-  &:before {
-    content: '';
-    display: block;
-    height: $footer-sub-height - 2;
-    width: 25px;
-    background-color: MediumOrchid;
-  }
+}
+
+
+
+
+
+
+
+
+
+
+// ---------- SITE MAP ---------- //
+
+.site-map {
+
 }
