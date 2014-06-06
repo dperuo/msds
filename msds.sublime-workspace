@@ -87,7 +87,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 3791,
+				"buffer_size": 3792,
 				"line_ending": "Unix"
 			}
 		},
@@ -96,6 +96,14 @@
 			"settings":
 			{
 				"buffer_size": 441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.coffee",
+			"settings":
+			{
+				"buffer_size": 261,
 				"line_ending": "Unix"
 			}
 		},
@@ -152,6 +160,7 @@
 	},
 	"file_history":
 	[
+		"/Users/derekperuo/Dropbox/Public/sites/msds/js/app.js",
 		"/Users/derekperuo/Downloads/copyright/css/app.less",
 		"/Users/derekperuo/Dropbox/Public/sites/msds.draft1/index.html",
 		"/Users/derekperuo/Downloads/copyright/copyright.html",
@@ -243,7 +252,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -251,15 +260,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 3791,
+						"buffer_size": 3792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3715,
-								3715
+								1349,
+								1349
 							]
 						],
 						"settings":
@@ -269,7 +278,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4352.0,
+						"translation.y": 1380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -302,6 +311,32 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.coffee",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -310,7 +345,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "index.html",
 					"settings":
 					{
@@ -321,8 +356,8 @@
 						"selection":
 						[
 							[
-								6948,
-								6948
+								2469,
+								2469
 							]
 						],
 						"settings":
@@ -332,8 +367,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 209.0,
-						"translation.y": 2384.0,
+						"translation.x": 825.0,
+						"translation.y": 859.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

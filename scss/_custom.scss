@@ -78,11 +78,12 @@ $triangle-box-size: 1.3em;
 .header-sub__nav-item {
   display: block;
   float: left;
-  line-height: $header-sub-height;
   padding-left: 4.1em;
+  line-height: $header-sub-height;
   &:first-child{
     padding-left: 0;
   }
+
 }
 
 .header-sub__nav-item--active:after {
