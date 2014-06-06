@@ -123,6 +123,27 @@ $triangle-box-size: 1.3em;
 
 
 
+// ---------- MAIN CONTENT ---------- //
+
+.main-content {
+}
+
+.main-content__section {
+    border-top: 1px solid #e2e2e2;
+    &:first-child {
+      border-top: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 // ---------- FOOTER TOP ---------- //
 
 $footer-top-height: 6.25em;
@@ -135,6 +156,7 @@ $footer-top-height: 6.25em;
 }
 
 .footer-top__tagline {
+  margin-left: 1rem;
   font-size: 1.625em;
   color: white;
 }
@@ -164,34 +186,68 @@ $footer-top-height: 6.25em;
 $footer-sub-height: 17.75rem;
 
 .footer-sub {
+  position: relative;
   height: $footer-sub-height;
   background-color: #0c4fb5;
+  font-size: 0.75rem;
   color: white;
 }
 
-.copyright {
+.site-map {
+  padding-top: 1.8rem;
+  font-size: inherit;
+}
 
+.site-map__section {
+  min-width: 6rem;
+  margin-right: 1.4rem;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-map__section--wide {
+  max-width: 9.75rem;
+  margin-right: 3.5rem;
+}
+
+.site-map__section--xwide {
+  max-width: 15.3rem;
+}
+
+.site-map__catagory {
+  font-weight: bold;
+  line-height: 2;
+  border-bottom: 1px dotted white;
+}
+
+.site-map__item {
+  padding-right: 0.2rem;
+  line-height: 1.5;
+  &:first-of-type {
+    padding-top: 0.25rem;
+  }
+}
+
+.site-map__link {
+  color: inherit;
+}
+
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1rem;
 }
 
 .copyright__img {
   max-width: 5.75rem;
+  padding-bottom: 0.5rem;
 }
 
 .copyright__text {
-  font-size: 0.75em;
+  margin:  0;
+  padding: 0;
+  font-size: inherit;
 }
 
-
-
-
-
-
-
-
-
-
-// ---------- SITE MAP ---------- //
-
-.site-map {
-
-}

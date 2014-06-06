@@ -1,9 +1,9 @@
-// 
+//
 //  HACKS.SCSS
-// 
+//
 //  Fixes, hacks, and temporary duct tape to get the project done.
-//  
-//  Hat tip: Harry Roberts
+//
+//  Inspiration: Harry Roberts
 //  http://csswizardry.com/2013/04/shame-css/
 //
 //
@@ -13,34 +13,16 @@ $dev-color: MediumOrchid;
 
 .dev-holder {
   display: block;
-  margin:  0;
-  padding: 0;
   font-size: 3em;
   line-height: 200px;
   text-align: center;
-  // border: 10px solid $dev-color;
   color: $dev-color;
-  // background-color: tint($dev-color, 65);
 }
 
-.footer-top__order-btn-dev {
-  padding: 0;
-  line-height: 1.6;
+.dev-holder--border {
+  border: 10px solid $dev-color;
 }
 
-.footer-top__order-btn--price,
-.footer-top__order-btn--text {
-  display: inline-block;
-  line-height: inherit;
-}
-
-.footer-top__order-btn--price{
-    padding-left: 1.1em;
-    padding-right: 0.25em;
-    font-size: 1.5625rem;
-    background-color: blue;
-}
-
-.footer-top__order-btn--text {
-  font-size: 1.25rem;
+.dev-holder--bg {
+  background-color: tint($dev-color, 65);
 }

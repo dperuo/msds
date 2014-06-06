@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"dev",
+				"dev-holder"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"site-m",
+				"site-map__link"
+			],
+			[
 				"pos",
 				"pos:r	position:relative"
 			],
@@ -18,10 +34,6 @@
 			[
 				"bac",
 				"background-color"
-			],
-			[
-				"padd",
-				"padding-right"
 			],
 			[
 				"fl",
@@ -75,7 +87,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 2939,
+				"buffer_size": 3791,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,23 +95,15 @@
 			"file": "scss/_hacks.scss",
 			"settings":
 			{
-				"buffer_size": 805,
+				"buffer_size": 441,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/derekperuo/Downloads/copyright/css/app.less",
-			"settings":
-			{
-				"buffer_size": 6421,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7490,
+				"buffer_size": 8014,
 				"line_ending": "Unix"
 			}
 		}
@@ -148,6 +152,7 @@
 	},
 	"file_history":
 	[
+		"/Users/derekperuo/Downloads/copyright/css/app.less",
 		"/Users/derekperuo/Dropbox/Public/sites/msds.draft1/index.html",
 		"/Users/derekperuo/Downloads/copyright/copyright.html",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/button.html",
@@ -203,6 +208,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			"inherit;",
 			"__item",
 			"map__item",
 			"box-shad",
@@ -244,15 +251,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 2939,
+						"buffer_size": 3791,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2936,
-								2936
+								3715,
+								3715
 							]
 						],
 						"settings":
@@ -262,7 +269,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3288.0,
+						"translation.y": 4352.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -272,19 +279,20 @@
 					"file": "scss/_hacks.scss",
 					"settings":
 					{
-						"buffer_size": 805,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								805,
-								805
+								38,
+								38
 							]
 						],
 						"settings":
 						{
+							"spell_check": false,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -294,54 +302,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/derekperuo/Downloads/copyright/css/app.less",
-					"settings":
-					{
-						"buffer_size": 6421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2034,
-								2034
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1996.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7490,
+						"buffer_size": 8014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2958,
-								2958
+								6948,
+								6948
 							]
 						],
 						"settings":
@@ -351,8 +332,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1391.0,
+						"translation.x": 209.0,
+						"translation.y": 2384.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
