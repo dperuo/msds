@@ -87,7 +87,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 3792,
+				"buffer_size": 4132,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,6 +100,14 @@
 			}
 		},
 		{
+			"file": "scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 43577,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "js/app.coffee",
 			"settings":
 			{
@@ -108,10 +116,13 @@
 			}
 		},
 		{
+			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <title>FitBand 2</title>\n        <link rel=\"stylesheet\" href=\"css/app.css\" />\n        <link href=\"//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n        <!-- <script src=\"bower_components/modernizr/modernizr.js\"></script> -->\n    </head>\n  <body>\n        <div class=\"header-top\">\n            <div class=\"row\">\n                <div class=\"medium-12 columns header-top__login-row\">\n                  <a href=\"#\">\n                    <button class=\"header-top__login-btn round right\" href=\"#\">LOGIN</button>\n                  </a>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"medium-2 columns\">\n                    <a href=\"#\">\n                        <img class=\"logo\" src=\"img/logo.png\">\n                    </a>\n                </div>\n                <div class=\"medium-8 columns\">\n                    <ul class=\"header-top__nav-list inline-list right\">\n                        <li class=\"header-top__nav-item\"><a class=\"header-top__nav-link\" href=\"#\">PRODUCTS</a></li>\n                        <li class=\"header-top__nav-item\"><a class=\"header-top__nav-link\" href=\"#\">ABOUT US</a></li>\n                        <li class=\"header-top__nav-item\"><a class=\"header-top__nav-link\" href=\"#\">SUPPORT</a></li>\n                        <li class=\"header-top__nav-item\"><a class=\"header-top__nav-link\" href=\"#\">BLOG</a></li>\n                        <li class=\"header-top__nav-item\"><a class=\"header-top__nav-link\" href=\"#\">COMMUNITY</a></li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n\n\n\n\n        <div class=\"dev-holder dev-holder--border\">CAROUSEL GOES HERE</div>\n\n\n\n\n\n        <div class=\"header-sub\">\n            <div class=\"row\">\n                <div class=\"medium-12 columns\">\n                    <ul class=\"header-sub__nav-list right\">\n                        <li class=\"header-sub__nav-item header-sub__nav-item--active\"><a class=\"header-sub__nav-link header-sub__nav-link--active\" href=\"#\">Features</a></li>\n                        <li class=\"header-sub__nav-item\"><a class=\"header-sub__nav-link\" href=\"#\">Tech Specs</a></li>\n                        <li class=\"header-sub__nav-item\"><a class=\"header-sub__nav-link\" href=\"#\">Design &amp; Technology</a></li>\n                        <li class=\"header-sub__nav-item\"><a class=\"header-sub__nav-link\" href=\"#\">Expert Coaching</a></li>\n                        <li class=\"header-sub__nav-item\"><a class=\"header-sub__nav-link\" href=\"#\">What's In The Box</a></li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n\n\n\n\n        <div class=\"main-content\">\n            <div class=\"main-content__section\">\n                <div class=\"dev-holder\">MAIN SECTION 1</div>\n            </div>\n\n            <div class=\"main-content__section\">\n                <div class=\"dev-holder\">EM vs. REM</div>\n            </div>\n\n            <div class=\"main-content__section\">\n                <div class=\"dev-holder\">MAIN SECTION 3</div>\n            </div>\n        </div>\n\n\n\n\n\n        <div class=\"footer-top\">\n            <div class=\"row footer-top--vertical-center\">\n                <div class=\"medium-7 columns footer-top__tagline\">\n                    FitBand lorem ipsum dolor sit amet nullum.\n                </div>\n                <div class=\"dev-holder--bg medium-4 columns\">\n                    <a class=\"footer-top__order-btn button round secondary right\" href=\"#\">\n                        $149 pre-order now\n                    </a>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"footer-sub\">\n            <div class=\"row\">\n                <div class=\"medium-12 columns\">\n                    <ul class=\"site-map inline-list\">\n                        <li class=\"site-map__section\">\n                            <dt class=\"site-map__catagory\">products</dt>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">fitband</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">fitband pro</a></dd>\n                        </li>\n                        <li class=\"site-map__section\">\n                            <dt class=\"site-map__catagory\">about us</dt>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">our company</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">our team</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">lark in the news</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">media resources</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">work with us</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">contact us</a></dd>\n                        </li>\n                        <li class=\"site-map__section\">\n                            <dt class=\"site-map__catagory\">support</dt>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">privacy policy</a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">user manual</a></dd>\n                        </li>\n                        <li class=\"site-map__section\">\n                            <dt class=\"site-map__catagory\">blog</dt>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\"></a></dd>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\"></a></dd>\n                        </li>\n                        <li class=\"site-map__section site-map__section--wide\">\n                            <dt class=\"site-map__catagory\">refer a friend</dt>\n                            <dd class=\"site-map__item\"><a class=\"site-map__link\" href=\"#\">Refer Fitband to your friends and earn rewards!</a></dd>\n                        </li>\n                        <li class=\"site-map__section site-map__section--xwide\">\n                            <dt class=\"site-map__catagory\">fitband newsletter</dt>\n                            <dd class=\"site-map__item\">Sign up to receive unique offers and fitband news.</dd>\n                            <dd class=\"site-map__item\">\n                                <form>\n                                    <div class=\"\">\n                                        <div class=\"site-map__input\">\n                                            <input class=\"\" type=\"text\" placeholder=\"your email\" />\n                                            <a class=\"\" href=\"#\" ><i class=\"fa fa-2x fa-angle-right\"></i></a>\n                                        </div>\n                                    </div>\n                                </form>\n                            </dd>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"copyright\">\n                    <div class=\"medium-12 columns\">\n                        <img class=\"copyright__img\" src=\"img/logo.png\">\n                    </div>\n                    <div class=\"medium-12 columns\">\n                        <p class=\"copyright__text\">&copy;2014 Fitband Technologies. All rights reserved. Fitband is a trademark of Fitband Technologies, Inc.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n        <script src=\"bower_components/jquery/dist/jquery.min.js\"></script>\n        <script src=\"bower_components/foundation/js/foundation.min.js\"></script>\n        <script src=\"js/app.js\"></script>\n    </body>\n</html>\n",
 			"file": "index.html",
+			"file_size": 7926,
+			"file_write_time": 1402404891000000,
 			"settings":
 			{
-				"buffer_size": 8014,
+				"buffer_size": 7926,
 				"line_ending": "Unix"
 			}
 		}
@@ -217,6 +228,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"color",
+			"rgb",
 			"h1",
 			"inherit;",
 			"__item",
@@ -239,7 +252,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -252,7 +265,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -260,15 +273,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 3792,
+						"buffer_size": 4132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1349,
-								1349
+								3872,
+								3872
 							]
 						],
 						"settings":
@@ -278,7 +291,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 4276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -295,8 +308,8 @@
 						"selection":
 						[
 							[
-								38,
-								38
+								380,
+								394
 							]
 						],
 						"settings":
@@ -307,13 +320,39 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 79.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "scss/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 43577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18136,
+								18136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 9978.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "js/app.coffee",
 					"settings":
 					{
@@ -345,19 +384,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8014,
+						"buffer_size": 7926,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2469,
-								2469
+								6899,
+								6899
 							]
 						],
 						"settings":
@@ -367,8 +406,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 825.0,
-						"translation.y": 859.0,
+						"translation.x": 327.0,
+						"translation.y": 2466.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
