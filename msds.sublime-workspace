@@ -91,7 +91,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 4719,
+				"buffer_size": 5136,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "scss/_hacks.scss",
 			"settings":
 			{
-				"buffer_size": 441,
+				"buffer_size": 463,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +123,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8342,
+				"buffer_size": 9777,
 				"line_ending": "Unix"
 			}
 		}
@@ -230,6 +230,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%padding-left",
+			"padding-left",
+			"main-content--padding-left",
+			"color",
+			"hsl\\(",
+			"hsl",
+			"color",
 			"$triangle-box-size",
 			"$box-shadow",
 			"box-shadow",
@@ -261,7 +268,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 		],
@@ -282,15 +289,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 4719,
+						"buffer_size": 5136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								582,
-								582
+								1134,
+								1134
 							]
 						],
 						"settings":
@@ -300,7 +307,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1083.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -310,15 +317,15 @@
 					"file": "scss/_hacks.scss",
 					"settings":
 					{
-						"buffer_size": 441,
+						"buffer_size": 463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								380,
-								394
+								378,
+								378
 							]
 						],
 						"settings":
@@ -329,7 +336,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -400,25 +407,26 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8342,
+						"buffer_size": 9777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3658,
-								3658
+								1814,
+								1814
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 12.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

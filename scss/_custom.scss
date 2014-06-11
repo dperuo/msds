@@ -11,7 +11,6 @@ $header-top-shadow: 0 1px 4px rgba(0,0,0,0.75);
 .header-top {
   height: $header-top-height;
   background-color: #0052cc;
-  background-color: hsla(216, 100%, 40%, 0.9);
   -webkit-box-shadow: $header-top-shadow;
           box-shadow: $header-top-shadow;
   overflow: hidden;  /* fix negative margin bug in firefox */
@@ -67,7 +66,7 @@ $header-top-shadow: 0 1px 4px rgba(0,0,0,0.75);
 .orbit-container {
   position: relative;
   margin-top: -($header-top-height);
-  z-index: -1;
+  z-index: -10;
   .orbit-bullets-container {
     height: 0;
     position: relative;
@@ -102,7 +101,6 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
 .header-sub {
   height: $header-sub-height;
   background-color: #b2b2b2;
-  background-color: hsla(0, 0%, 70%, 1);
   overflow: hidden;
   -webkit-box-shadow: $header-sub-shadow;
           box-shadow: $header-sub-shadow;
@@ -142,7 +140,6 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
 
 .header-sub__nav-link {
   color: #525252;
-  color: hsla(0, 0%, 32%, 1);
   font-size: 1.1rem;
   text-decoration: none;
 }
@@ -153,7 +150,10 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
   color: white;
 }
 
-
+.orbit-text {
+  position: relative;
+  z-index: -1;
+}
 
 
 
@@ -172,11 +172,34 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
     }
 }
 
+.main-content__heading {
+  @extend %main-content--padding-left;
+  padding-top: 7.5rem;
+  padding-left: 1rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
 
+.main-content__heading--orange {
+  color: #f68933;
+}
 
+.main-content__heading--blue {
+  color: #0c4fb5;
+}
 
+.main-content__body {
+  @extend %main-content--padding-left;
+  font-size: 1.1875rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
 
-
+%main-content--padding-left {
+  padding-left: 1rem;
+}
 
 
 
@@ -301,4 +324,3 @@ $footer-sub-height: 17.75rem;
   padding: 0;
   font-size: inherit;
 }
-
