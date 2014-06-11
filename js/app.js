@@ -2,12 +2,13 @@
 (function() {
   $(function() {
     var $link;
+    $(document).foundation();
+    $('.orbit-bullets-container').addClass('row');
     $link = $('.header-sub__nav-link');
-    $link.click(function() {
+    return $link.click(function() {
       $(this).parent().toggleClass('header-sub__nav-item--active');
       return $(this).toggleClass('header-sub__nav-link--active');
     });
-    return $(document).foundation();
   });
 
 }).call(this);
