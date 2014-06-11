@@ -91,7 +91,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 4657,
+				"buffer_size": 4719,
 				"line_ending": "Unix"
 			}
 		},
@@ -282,15 +282,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 4657,
+						"buffer_size": 4719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								436,
-								436
+								582,
+								582
 							]
 						],
 						"settings":
@@ -379,7 +379,9 @@
 						"settings":
 						{
 							"spell_check": true,
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
