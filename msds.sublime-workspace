@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"acc",
+				"accordionHeading"
+			],
+			[
+				"accordi",
+				"accordionLink"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"main-",
+				"main-content__img"
+			],
+			[
 				"ri",
 				"right"
 			],
@@ -14,10 +34,6 @@
 			[
 				"po",
 				"pos:a	position:absolute"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"site-m",
@@ -91,7 +107,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 5136,
+				"buffer_size": 5979,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +131,7 @@
 			"file": "js/app.coffee",
 			"settings":
 			{
-				"buffer_size": 462,
+				"buffer_size": 803,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +139,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9777,
+				"buffer_size": 12239,
 				"line_ending": "Unix"
 			}
 		}
@@ -230,6 +246,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"inactive",
+			"linkInactive",
+			"heading--",
+			"em;",
+			"left",
+			"main-content--padding-left",
+			"ul",
 			"%padding-left",
 			"padding-left",
 			"main-content--padding-left",
@@ -281,7 +304,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -289,15 +312,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 5136,
+						"buffer_size": 5979,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1134,
-								1134
+								4081,
+								4106
 							]
 						],
 						"settings":
@@ -307,7 +330,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1083.0,
+						"translation.y": 4227.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -324,8 +347,8 @@
 						"selection":
 						[
 							[
-								378,
-								378
+								317,
+								317
 							]
 						],
 						"settings":
@@ -336,7 +359,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 80.0,
+						"translation.y": 98.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -353,8 +376,8 @@
 						"selection":
 						[
 							[
-								2505,
-								2509
+								8370,
+								8370
 							]
 						],
 						"settings":
@@ -362,7 +385,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1330.0,
+						"translation.y": 4308.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -372,15 +395,15 @@
 					"file": "js/app.coffee",
 					"settings":
 					{
-						"buffer_size": 462,
+						"buffer_size": 803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								184,
-								184
+								523,
+								523
 							]
 						],
 						"settings":
@@ -391,7 +414,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -407,15 +430,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9777,
+						"buffer_size": 12239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1814,
-								1814
+								6525,
+								6525
 							]
 						],
 						"settings":
@@ -425,8 +448,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 12.0,
-						"translation.y": 162.0,
+						"translation.x": 0.0,
+						"translation.y": 2149.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
