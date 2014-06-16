@@ -5,7 +5,15 @@
 		[
 			[
 				"acc",
-				"accordionHeading"
+				"accordion"
+			],
+			[
+				"js",
+				"js-accordion-1"
+			],
+			[
+				"acco",
+				"accordionLink"
 			],
 			[
 				"accordi",
@@ -107,7 +115,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 5979,
+				"buffer_size": 6160,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +123,7 @@
 			"file": "scss/_hacks.scss",
 			"settings":
 			{
-				"buffer_size": 463,
+				"buffer_size": 474,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +131,7 @@
 			"file": "scss/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 43682,
+				"buffer_size": 43716,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,7 +139,7 @@
 			"file": "js/app.coffee",
 			"settings":
 			{
-				"buffer_size": 803,
+				"buffer_size": 1188,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +147,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12239,
+				"buffer_size": 13379,
 				"line_ending": "Unix"
 			}
 		}
@@ -246,6 +254,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Things and Stuff",
+			"accordionIconsAndHeadings",
+			"contentImgs",
+			"accordionIcon",
+			"accordionHeading",
+			"contentImgs",
+			"accordionIcon",
+			"contentImg",
+			"LINK",
+			"link",
+			"accordionLink",
+			"accordIconAndHeading",
+			"accordLink",
+			"accordionLink",
 			"inactive",
 			"linkInactive",
 			"heading--",
@@ -304,7 +326,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -312,15 +334,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 5979,
+						"buffer_size": 6160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4081,
-								4106
+								3801,
+								3801
 							]
 						],
 						"settings":
@@ -330,7 +352,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4227.0,
+						"translation.y": 4080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -340,15 +362,15 @@
 					"file": "scss/_hacks.scss",
 					"settings":
 					{
-						"buffer_size": 463,
+						"buffer_size": 474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								470,
+								470
 							]
 						],
 						"settings":
@@ -359,7 +381,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 98.0,
+						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -369,15 +391,15 @@
 					"file": "scss/_settings.scss",
 					"settings":
 					{
-						"buffer_size": 43682,
+						"buffer_size": 43716,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8370,
-								8370
+								7922,
+								7922
 							]
 						],
 						"settings":
@@ -385,7 +407,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4308.0,
+						"translation.y": 4283.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -395,15 +417,15 @@
 					"file": "js/app.coffee",
 					"settings":
 					{
-						"buffer_size": 803,
+						"buffer_size": 1188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								523,
-								523
+								893,
+								893
 							]
 						],
 						"settings":
@@ -413,8 +435,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 132.0,
+						"translation.x": 27.0,
+						"translation.y": 246.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -430,15 +452,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 12239,
+						"buffer_size": 13379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6525,
-								6525
+								7287,
+								7287
 							]
 						],
 						"settings":
@@ -448,8 +470,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 2149.0,
+						"translation.x": 239.0,
+						"translation.y": 2603.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

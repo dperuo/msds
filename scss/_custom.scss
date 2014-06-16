@@ -226,6 +226,7 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
   padding-bottom: 0.625em;
   .accordion__link {
     line-height: 0;
+    font-weight: 600;
     border-radius: 10em;
     &.accordion__link--green {
       color: white;
@@ -242,6 +243,9 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
     &.accordion__link--inactive {
       color: #808084;
       background-color: #f2f2f2;
+      &:hover {
+        background-color: #d9d9d9;
+      }
     }
   }
 }
@@ -258,7 +262,11 @@ $active-link-shadow:          -1px -1px 1px $shadow-color;
   color: #f68933;
 }
 
-
+/*.accordion__link */.content.active {
+  font-size: 0.875em;
+  font-weight: 600;
+  color: #808084;
+}
 
 
 
