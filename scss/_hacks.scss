@@ -7,22 +7,3 @@
 //  http://csswizardry.com/2013/04/shame-css/
 //
 //
-
-
-$dev-color: MediumOrchid;
-
-.dev-holder {
-  display: block;
-  font-size: 3em;
-  line-height: 200px;
-  text-align: center;
-  color: $dev-color;
-}
-
-.dev-holder--border {
-  border: 10px solid $dev-color;
-}
-
-.dev-holder--bg {
-  background-color: transparentize(tint($dev-color, 65), 0.35) !important;
-}

@@ -1,0 +1,25 @@
+//
+//  DEBUG.SCSS
+//
+//  Temporary code used during development.
+//
+//
+
+
+$debug-color: MediumOrchid;
+
+[debug*="block"] {
+  display: block;
+  font-size: 3em;
+  line-height: 200px;
+  text-align: center;
+  color: $debug-color;
+}
+
+[debug*="border"] {
+  border: 10px solid $debug-color;
+}
+
+[debug*="bg"] {
+  background-color: transparentize(tint($debug-color, 65), 0.35) !important;
+}

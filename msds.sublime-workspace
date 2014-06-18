@@ -123,7 +123,15 @@
 			"file": "scss/_hacks.scss",
 			"settings":
 			{
-				"buffer_size": 474,
+				"buffer_size": 174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_debug.scss",
+			"settings":
+			{
+				"buffer_size": 380,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,7 +155,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13379,
+				"buffer_size": 13404,
 				"line_ending": "Unix"
 			}
 		}
@@ -196,6 +204,7 @@
 	},
 	"file_history":
 	[
+		"/Users/derekperuo/Dropbox/Public/sites/msds/msds.sublime-project",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/carousel.html",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/js/app.js",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/index.html",
@@ -254,6 +263,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$dev-color",
+			"dev-holder--bg",
 			"Things and Stuff",
 			"accordionIconsAndHeadings",
 			"contentImgs",
@@ -326,7 +337,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -352,7 +363,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4080.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -362,15 +373,15 @@
 					"file": "scss/_hacks.scss",
 					"settings":
 					{
-						"buffer_size": 474,
+						"buffer_size": 174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								0,
+								0
 							]
 						],
 						"settings":
@@ -381,13 +392,39 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 80.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "scss/_debug.scss",
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "scss/_settings.scss",
 					"settings":
 					{
@@ -407,13 +444,13 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4283.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "js/app.coffee",
 					"settings":
 					{
@@ -435,8 +472,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 27.0,
-						"translation.y": 246.0,
+						"translation.x": 0.0,
+						"translation.y": 137.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -448,19 +485,27 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 13379,
+						"buffer_size": 13404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7287,
-								7287
+								5978,
+								5978
+							],
+							[
+								6763,
+								6763
+							],
+							[
+								7542,
+								7542
 							]
 						],
 						"settings":
@@ -470,8 +515,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 239.0,
-						"translation.y": 2603.0,
+						"translation.x": 907.0,
+						"translation.y": 2504.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
